@@ -1,0 +1,92 @@
+- name: La Musique
+  image: /assets/app-img/lamusic.png
+  link: /work/lamusic.html
+  
+- name: Sketch Predictor
+  image: /assets/app-img/drw.jpg
+  link: /work/drw.html
+
+- name: Lfractal
+  image: https://akashmeshram.github.io/Lfractal-html-version/Annotation.png
+  link: /work/lfractal.html
+
+- name: Deep News Classifier
+  image: /assets/app-img/news.png
+  link: https://github.com/vishwajeetkr/Deep_News_Classifier
+
+- name: Youtube Playlist Visualizer
+  image: /assets/app-img/youtube.png
+  link: https://akashmeshram.github.io/Youtube-Playlist-Visualizer/
+
+- name: Style Transfer
+  image: /assets/app-img/str.jpeg
+  link: /work/str.html
+
+- name: Devanagari matrix flow
+  image: /assets/app-img/hindu.png
+  link: /work/hindu.html
+
+- name: Ogura Hyakunin Isshu
+  image: https://i2.wp.com/itsjapantime.com/wp-content/uploads/2018/07/karuta1.jpg?w=659&ssl=1
+  link: /work/karuta.html
+
+- name: Firefly Sync
+  image: /assets/app-img/firefly.png
+  link: /work/firefly.html
+
+- name: Bluetooth LE Analyzer
+  image: /assets/app-img/ble.jpg
+  link: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
+
+- name: Shield Life
+  image: /assets/app-img/slife.png
+  link: /work/slife.html
+
+- name: CNT with Tersoff
+  image: /assets/app-img/nanotube.jpg
+  link: https://github.com/akashmeshram/CNT-with-Tersoff
+
+- name: 2048 Puzzle
+  image: /assets/app-img/2048.png
+  link: /work/2048.html
+
+- name: Microcanonical ensemble
+  image: /assets/app-img/esemble.jpg
+  link: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
+
+- name: Lorenz Attractor
+  image: /assets/app-img/lorenz.png
+  link: /work/lorenz.html
+
+- name: Maze Generator
+  image: /assets/app-img/maze.png
+  link: /work/maze.html
+
+- name: Stochastic Perlin Noise
+  image: /assets/app-img/perlin.png
+  link: /work/perlin.html
+
+- name: 3-D Biome
+  image: /assets/app-img/biome.png
+  link: /work/biome.html
+
+- name: ML Sketch Brush
+  image: /assets/app-img/robot.png
+  link: /work/robot.html
+
+- name: Snake Game
+  image: /assets/app-img/snake.png
+  link: /work/snake.html
+  
+- name: Mandelbrot set
+  image: /assets/app-img/mbset.jpg
+  link: https://akashmeshram.github.io/Mandelbrot-set/
+
+- name: Truchet’s tiling
+  image: /assets/app-img/truchet.png
+  link: /work/truchet.html
+  
+- name: TIC TAC TOE
+  image: /assets/app-img/ttt.png
+  link: /work/ttt.html
+

@@ -1,0 +1,647 @@
+/* ****************************************************************************
+
+   * AUTHOR : AKASH MESHRAM
+   * DISCRIPTION : THIS FILE IS A STYLE SHEET WRITTEN FOR MY WEBSITE
+   * WEBSITE : AKASHMESHRAM.GITHUB.IO/WEBSITE
+
+   ************************************************************************** */
+
+/* =============================================================================
+VARIABLES
+========================================================================== */
+
+$primary-color: rgb(49, 31, 25);
+$secondary-color: rgba(49, 31, 25, 0.7);
+$fang-color: rgb(255, 132, 0);
+$bg-color: rgb(241, 235, 223);
+
+$breakpoint-mobile: 480px;
+$desktop-breakpoint: 768px;
+
+/* =============================================================================
+   GLOBAL STYLING
+   ========================================================================== */
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  background: $bg-color;
+  font-family: "Century Gothic", "Cen Got", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@font-face {
+  font-family: "Cen Got";
+  src: url("../fonts/Century Gothic.ttf");
+}
+
+
+.parent {
+  display: flex;
+}
+
+section {
+  margin: 50px 0;
+}
+
+p {
+  line-height: 24px;
+  font-family: arial, "sans serif";
+  font-size: 16px;
+  color: $secondary-color;
+  letter-spacing: 0.25px;
+} 
+
+li {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid #000;
+  position: relative;
+  transition: ease all 0.4s;
+  background: none;
+  color: #fff;
+  border-radius: 0px;
+  overflow: hidden;
+  z-index: 0;
+  min-width: 100px;
+  padding: 8px 15px;
+
+  &::before {
+    z-index: -1;
+    top: -1px;
+    transition: ease all 0.4s;
+    content: '';
+    position: absolute;
+    width: 0%;
+    background: #000;
+    left: inherit;
+    right: -1px;
+    display: block;
+    height: 104%;
+    width: 103%;
+  }
+
+  &::after {
+    z-index: -1;
+    top: -1px;
+    transition: ease all 0.4s;
+    content: '';
+    position: absolute;
+    width: 0%;
+    background: #F1EBDF;
+    left: inherit;
+    right: -1px;
+    display: block;
+    height: 104%;
+  }
+
+  &:hover {
+    background: none;
+    color: #000;
+
+    &::after {
+      left: -1px;
+      right: inherit;
+      width: 103%;
+    }
+  }
+}
+
+/* =============================================================================
+   HEADER AND NAVIGATION
+   ========================================================================== */
+
+header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: $bg-color;
+  border-bottom: $primary-color solid 1px;
+  padding: 10px;
+
+  h1 {
+    width: 100%;
+    color: $primary-color;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 21.96px;
+    text-transform: uppercase;
+  }
+
+  span {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+
+    i {
+      color: $primary-color;
+    }
+  }
+
+  ul {
+    width: 100%;
+    display: none;
+
+    li {
+      color: $secondary-color;
+      font-size: 20px;
+      font-weight: 200;
+      letter-spacing: 2px;
+      line-height: 21.96px;
+      text-align: center;     
+      text-transform: uppercase;
+      margin: 15px auto;
+    }
+  }
+
+  .active {
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  header {
+    position: static;
+    border-bottom : none;
+
+    h1 {
+      display: block;
+      text-align: center;
+      font-size: 54px;
+      letter-spacing: 6px;
+      line-height: 65.88px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    span {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      li {
+        margin: auto 10px;
+        :hover {
+          color: $fang-color;
+        }
+      }
+    }
+  }
+
+}
+
+/* =============================================================================
+   INTRO PAGE
+   ========================================================================== */
+
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .hero-background {
+    height: 400px;
+    width: 80%;
+    background-image: url('../images/mobile.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    animation: loading 2s ease 1;
+    margin: 40px 0;
+  }
+
+  a {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 28.06px;
+    letter-spacing: normal;
+    font-weight: 400;
+    color: $fang-color;
+    &:hover {
+      color: rgb(0, 0, 0);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro-page {
+    .hero-background {
+      margin-top: 100px;
+      width: 600px;
+      background-image: url('../images/desktop.jpg');
+    }
+  }
+}
+
+/* =============================================================================
+   ABOUT PAGE
+   ========================================================================== */
+
+.About-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  div {
+    padding: 15px 40px 0px 40px;
+    width: auto;
+    flex: 1;
+  }
+  .profile-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    animation: loading 2s ease 1;
+  }
+  p {
+    text-align: justify;
+    padding: 10px 0;
+    max-width: $breakpoint-mobile;
+    a {
+      color: $fang-color;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .About-page {
+    flex-direction: row;
+    align-items: center;
+    margin: 0 200px;
+    img {
+      height: 280.8px;
+      width: 374.4px;
+      animation: loading 2s ease 1;
+    }
+  }
+}
+
+/* =============================================================================
+   WORK SECTION
+   ========================================================================== */
+
+.Work-page {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    figure {
+      width: 335px;
+      height: 200px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+      animation: loading 1s ease 1;
+
+      img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+      }
+
+      &:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+
+    h2 {
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: normal;
+      color: $primary-color;
+      margin: 10px 2px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Work-page {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px 100px 0px 100px;
+    a {
+      margin: 21.5px;
+    }
+    img {
+      height: 250px;
+    }
+  }
+}
+
+/* =============================================================================
+   CONNECT SECTION
+   ========================================================================== */
+
+.Connect-page {
+  margin-top: 45px;
+  flex-direction: column;
+  color: rgb(102, 102, 102);
+  font-size: 15.5px;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+  line-height: 23px;
+}
+
+form {
+  margin: 0px 40px;
+  flex: 1;
+  div {
+    margin: 13px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+    height: 36px;
+    background-color: rgb(251, 251, 251);
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 4px;
+  }
+  textarea {
+    width: 100%;
+    height: 36px;
+    background-color: rgb(251, 251, 251);
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    height: 92px;
+    resize: none;
+  }
+  input[type=submit] {
+    width: 100px;
+    height: 36px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 107, 107);
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 2px;
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(140, 140, 140);
+      font-size: 16px;
+    }
+  }
+}
+
+.Address {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary {
+  text-align: center;
+}
+
+.secondary {
+  display: flex;
+  justify-content: center;
+  i {
+    margin: 10px 20px;
+    font-size: 26px;
+    &:hover {
+      color: rgb(255, 132, 0);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Connect-page {
+    flex-direction: row;
+    margin: 45px 300px;
+  }
+  .Address {
+    margin-top: 80px;
+  }
+}
+
+/* =============================================================================
+   BLOG SECTION
+   ========================================================================== */
+
+.Blog-page {
+  margin-top: 10.5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 26.84px;
+    text-transform: uppercase;
+    color: rgb(70, 70, 70);
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    margin: 21.5px 43.5px;
+    align-items: center;
+    justify-content: center;
+  }
+  li {
+    padding: 20px 20px;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+  }
+  p {
+    font-family: "arial", "sans serif";
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    text-align: justify;
+    transition: transform .2s ease;
+  }
+  li:hover {
+    background-color: rgba(255, 132, 0, 0.1);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Blog-page {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 200px 0px 200px;
+    ul {
+      width: 700px;
+    }
+  }
+}
+
+/* =============================================================================
+   POST SECTION
+   ========================================================================== */
+
+.Post-page {
+  margin-top: 23.5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 26.84px;
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+  }
+  p {
+    color: rgb(70, 70, 70);
+    font-family: "arial", "sans serif";
+    font-size: 14px;
+    letter-spacing: 0.24px;
+    line-height: 24px;
+    text-align: justify;
+    width: 350px;
+    padding: 10px 0px;
+  }
+  img {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Post-page {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px 200px 0px 200px;
+    p {
+      line-height: 30px;
+      width: 700px;
+    }
+    img {
+      width: 700px;
+      height: auto;
+    }
+  }
+}
+
+/* =============================================================================
+   WORK-ITEM SECTION
+   ========================================================================== */
+
+.Work-item {
+  margin-top: 23.5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h2 {
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 26.84px;
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+  }
+  #link {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    padding: 20px 6px;
+  }
+  a {
+    margin: 15px 35px;
+  }
+  img {
+    width: 350px;
+    height: auto;
+  }
+  p {
+    text-align: justify;
+    width: 350px;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Work-item {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px 200px 0px 200px;
+    img {
+      width: 700px;
+      margin-top: 40px;
+    }
+    p {
+      line-height: 30px;
+      width: 700px;
+    }
+  }
+}
