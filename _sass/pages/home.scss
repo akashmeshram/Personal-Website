@@ -1,0 +1,31 @@
+/* =============================================================================
+VARIABLES
+========================================================================== */
+
+@use "variables" as *;
+
+/* =============================================================================
+HOME PAGE
+========================================================================== */
+
+#home-page {
+  text-align: center;
+  color: $fang-color;
+  div {
+    margin-bottom: 2em;
+    aspect-ratio: auto 800 / 1100;
+    background-image: url("../images/mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  #home-page {
+    div {
+      aspect-ratio: auto 1100 / 500;
+      background-image: url("../images/desktop.jpg");
+    }
+  }
+}

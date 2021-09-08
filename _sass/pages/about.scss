@@ -1,0 +1,51 @@
+@use "variables" as *;
+
+/* =============================================================================
+   ABOUT PAGE
+============================================================================= */
+
+
+#about-page {
+    display: flex;
+    align-items: center;
+    #profile-image {
+        flex: 1 1 0;
+        text-align: center;
+        img {
+            max-width:100%; 
+            height: auto;
+        }
+    }
+    #profile-text {
+        flex: 2 1 0;
+        margin-left: 40px;
+        p {
+            font-family: sans-serif;
+            &:first-child {
+                font-weight: 700;
+                text-align: center;
+            }
+            a {
+                text-decoration: none;
+                color: $fang-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 959px) {
+    #about-page {
+        flex-direction: column;
+        #profile-text {
+            margin: 0;
+            &:first-child {
+                text-align: left;
+            }
+        }
+        div {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+---
+layout: default
+title: Akash Meshram | Work 
+permalink: /portfolio
+---
+
+<section id="portfolio-page">
+		
+		{% for item in site.data.projects %}
+
+			<article>
+				<div class="work-thumbnail">
+					<a href="project/{{ item.link }}">
+						<img src="{{ item.image }}">
+					</a>
+				</div>
+				<div class="work-header">
+					<h1>  {{ item.name }} </h1>
+					<h2> Web App </h2>
+				</div>
+			</article>
+
+		{% endfor %}
+
+</section>

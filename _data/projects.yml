@@ -1,14 +1,14 @@
 - name: La Musique
   image: /assets/app-img/lamusic.png
-  link: /work/lamusic.html
+  link: lamusic.html
   
 - name: Sketch Predictor
   image: /assets/app-img/drw.jpg
-  link: /work/drw.html
+  link: drw.html
 
 - name: Lfractal
   image: https://akashmeshram.github.io/Lfractal-html-version/Annotation.png
-  link: /work/lfractal.html
+  link: lfractal.html
 
 - name: Deep News Classifier
   image: /assets/app-img/news.png
@@ -20,19 +20,19 @@
 
 - name: Style Transfer
   image: /assets/app-img/str.jpeg
-  link: /work/str.html
+  link: str.html
 
 - name: Devanagari matrix flow
   image: /assets/app-img/hindu.png
-  link: /work/hindu.html
+  link: hindu.html
 
 - name: Ogura Hyakunin Isshu
   image: https://i2.wp.com/itsjapantime.com/wp-content/uploads/2018/07/karuta1.jpg?w=659&ssl=1
-  link: /work/karuta.html
+  link: karuta.html
 
 - name: Firefly Sync
   image: /assets/app-img/firefly.png
-  link: /work/firefly.html
+  link: firefly.html
 
 - name: Bluetooth LE Analyzer
   image: /assets/app-img/ble.jpg
@@ -40,7 +40,7 @@
 
 - name: Shield Life
   image: /assets/app-img/slife.png
-  link: /work/slife.html
+  link: slife.html
 
 - name: CNT with Tersoff
   image: /assets/app-img/nanotube.jpg
@@ -48,7 +48,7 @@
 
 - name: 2048 Puzzle
   image: /assets/app-img/2048.png
-  link: /work/2048.html
+  link: 2048.html
 
 - name: Microcanonical ensemble
   image: /assets/app-img/esemble.jpg
@@ -56,27 +56,27 @@
 
 - name: Lorenz Attractor
   image: /assets/app-img/lorenz.png
-  link: /work/lorenz.html
+  link: lorenz.html
 
 - name: Maze Generator
   image: /assets/app-img/maze.png
-  link: /work/maze.html
+  link: maze.html
 
 - name: Stochastic Perlin Noise
   image: /assets/app-img/perlin.png
-  link: /work/perlin.html
+  link: perlin.html
 
 - name: 3-D Biome
   image: /assets/app-img/biome.png
-  link: /work/biome.html
+  link: biome.html
 
 - name: ML Sketch Brush
   image: /assets/app-img/robot.png
-  link: /work/robot.html
+  link: robot.html
 
 - name: Snake Game
   image: /assets/app-img/snake.png
-  link: /work/snake.html
+  link: snake.html
   
 - name: Mandelbrot set
   image: /assets/app-img/mbset.jpg
@@ -84,9 +84,9 @@
 
 - name: Truchet’s tiling
   image: /assets/app-img/truchet.png
-  link: /work/truchet.html
+  link: truchet.html
   
 - name: TIC TAC TOE
   image: /assets/app-img/ttt.png
-  link: /work/ttt.html
+  link: ttt.html
 

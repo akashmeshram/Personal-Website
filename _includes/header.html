@@ -1,19 +1,27 @@
 <header>
-    <h1><a href="/" class="logo">Akash Meshram</a></h1>	
-    <span id="js-navbar-toggle">
-        <i class="fas fa-bars"></i>
-    </span>
-    <ul id="js-menu">
+    <div>
+        <span id="logo">  
+            <a href="/"> 
+                Akash Meshram 
+            </a> 
+        </span>
+
+        <span id="navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+    </div>
+    
+
+    <nav id="menu">
         {% for item in site.data.navigation %}
-            <li>
-                <a href="{{ item.link }}" 
-                    {% if page.url == item.link %}
-                        style="color: rgb(255, 132, 0);" 
-                    {% endif %}
-                >
-                    {{ item.name }}
-                </a>
-            </li>
+            <span
+                {% if page.url == item.link %}
+                    style="color: rgb(255, 132, 0);" 
+                {% endif %}
+            >
+                <a href="{{ item.link }}"> {{ item.name }} </a>
+            </span>
         {% endfor %}
-    </ul>
+    </nav>
+    
 </header>

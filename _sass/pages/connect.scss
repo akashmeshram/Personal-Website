@@ -1,0 +1,22 @@
+/* =============================================================================
+   CONNECT SECTION
+   ========================================================================== */
+
+#connect-page {
+  form {
+    max-width: 767px;
+    margin: 0px auto;
+    p {
+      &:first-child {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+    div {
+      margin-bottom: 40px;
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+}
