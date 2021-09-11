@@ -4,20 +4,19 @@ title: Akash Meshram | Work
 permalink: /portfolio
 ---
 
-<section id="portfolio-page">
+<section class="page-content" id="portfolio-page">
 		
 		{% for item in site.data.projects %}
-
+	
 			<article>
-				<div class="work-thumbnail">
-					<a href="project/{{ item.link }}">
-						<img src="{{ item.image }}">
-					</a>
-				</div>
-				<div class="work-header">
-					<h1>  {{ item.name }} </h1>
-					<h2> Web App </h2>
-				</div>
+				<a href="project/{{ item.link }}">
+					<div class="work-thumbnail">
+							<img src="{{ item.image }}">
+					</div>
+					<h4 class="work-header">
+						{{ item.name }} 
+					</h4>
+				</a>
 			</article>
 
 		{% endfor %}

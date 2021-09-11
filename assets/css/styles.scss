@@ -1,8 +1,8 @@
 ---
 ---
 @charset "UTF-8";
-@import "typebase";
 @import "variables";
+@import "typebase";
 @import "base";
 @import "components/layout";
 @import "components/header";
@@ -10,3 +10,4 @@
 @import "pages/about";
 @import "pages/portfolio";
 @import "pages/connect";
+@import "pages/project";

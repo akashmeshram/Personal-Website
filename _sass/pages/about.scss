@@ -4,48 +4,31 @@
    ABOUT PAGE
 ============================================================================= */
 
-
 #about-page {
     display: flex;
-    align-items: center;
-    #profile-image {
-        flex: 1 1 0;
-        text-align: center;
-        img {
-            max-width:100%; 
-            height: auto;
-        }
+    flex-direction: column;
+    img {
+        width: 100%;
+        aspect-ratio: auto;
     }
-    #profile-text {
-        flex: 2 1 0;
-        margin-left: 40px;
-        p {
-            font-family: sans-serif;
-            &:first-child {
-                font-weight: 700;
-                text-align: center;
-            }
-            a {
-                text-decoration: none;
-                color: $fang-color;
-            }
-        }
+    div {
+        margin: 0 0.5em;
+        margin-bottom: 1em;
+        text-align: justify;
     }
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (min-width: $breakpoint-mobile) {
     #about-page {
-        flex-direction: column;
-        #profile-text {
-            margin: 0;
-            &:first-child {
-                text-align: left;
-            }
+        flex-direction: row;
+        align-items: center;
+        #profile-image {
+            flex: 1 1 0;
         }
-        div {
-            margin-bottom: 20px;
-            text-align: justify;
+        #profile-text {
+            flex: 2 1 0;
+            margin-left: 2em;
+            text-align: left;
         }
     }
 }
-

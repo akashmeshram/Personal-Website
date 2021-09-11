@@ -1,18 +1,13 @@
-/* =============================================================================
-VARIABLES
-========================================================================== */
-
 @use "variables" as *;
 
 /* =============================================================================
-HOME PAGE
+  HOME PAGE
 ========================================================================== */
 
 #home-page {
   text-align: center;
-  color: $fang-color;
   div {
-    margin-bottom: 2em;
+    margin: 2em 1em;
     aspect-ratio: auto 800 / 1100;
     background-image: url("../images/mobile.jpg");
     background-position: center;
@@ -21,7 +16,7 @@ HOME PAGE
   }
 }
 
-@media screen and (min-width: $desktop-breakpoint) {
+@media screen and (min-width: $breakpoint-mobile) {
   #home-page {
     div {
       aspect-ratio: auto 1100 / 500;

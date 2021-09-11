@@ -1,7 +1,7 @@
 /* =============================================================================
 VARIABLES
 ========================================================================== */
-@use "typebase";
+@use "typebase" as *;
 @use "variables" as *;
 
 /* =============================================================================
@@ -12,7 +12,8 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: $primary-color solid 1px;
+  border-bottom: 1px solid $color-text;
+  background-color: $color-body;
 
   div {
     display: flex;
@@ -23,13 +24,13 @@ header {
 
   #logo {
     text-transform: uppercase;
-    color: $primary-color;
-    font-size: 1 * $scale * 1rem;
+    font-family: "Century Gothic";
+    @include size(h2);
   }
 
   #navbar-toggle {
     i {
-      color: $primary-color;
+      @include size(h3);
     }
   }
 
@@ -41,29 +42,28 @@ header {
     width: 100%;
     display: none;
     text-align: center;
-    background-color: white;
     span {
       padding: 1em;
       display: block;
-      font-size: 1 * $scale * 1rem;
+      @include size(p);
+      text-transform: uppercase;
     }
   }
 }
 
-@media only screen and (min-width: $desktop-breakpoint) {
+@media only screen and (min-width: $breakpoint-mobile) {
   header {
     position: static;
     border-bottom: none;
     div {
       justify-content: center;
       #logo {
-        font-size: 3 * $scale * 1rem;
+        @include size(sub-hero);
       }
       #navbar-toggle {
         display: none;
       }
     }
-    
     #menu {
       display: block;
       span {
