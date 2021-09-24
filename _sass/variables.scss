@@ -1,9 +1,4 @@
-$primary-color: rgb(49, 31, 25);
-$secondary-color: rgba(49, 31, 25, 0.7);
 $fang-color: rgb(255, 132, 0);
-$bg-color: rgb(241, 235, 223);
-
-$desktop-breakpoint: 35em;
 
 @font-face {
     font-family: "Century Gothic";
@@ -15,39 +10,51 @@ $secondary-font: serif;
 $breakpoint-tablet: 75em;
 $breakpoint-mobile: 45em;
 
+// Color Scheme
+$fang-color: rgb(255, 132, 0);
 $color-text: #311f19;
 $color-text-rgb: rgb(49, 31, 25);
-$color-body-text: #311f19;
-$color-sale-text: #311f19;
-$color-small-button-text-border: rgba(0,0,0,0);
-$color-text-field: #ffffff;
-$color-text-field-text: #311f19;
-$color-text-field-text-rgb: rgb(49, 31, 25);
-$color-btn-primary: #000000;
-$color-btn-primary-darker: #000000;
-$color-btn-primary-text: #ffffff;
-$color-blankstate: rgba(49, 31, 25, 0.7);
-$color-blankstate-border: rgba(49, 31, 25, 0.2);
-$color-blankstate-background: rgba(49, 31, 25, 0.1);
-$color-text-focus: #643f33;
-$color-overlay-text-focus: #e6e6e6;
-$color-btn-primary-focus: #404040;
-$color-btn-social-focus: rgba(64, 64, 64, 0.0);
-$color-small-button-text-border-focus: rgba(64, 64, 64, 0.0);
-$predictive-search-focus: #e9e0cd;
+$color-text-body: rgba(49, 31, 25, 0.7);
+
 $color-body: #f1ebdf;
-$color-bg: #f1ebdf;
-$color-bg-rgb: rgb(241, 235, 223);
-$color-bg-alt: rgba(49, 31, 25, 0.05);
-$color-bg-currency-selector: rgba(49, 31, 25, 0.2);
-$color-overlay-title-text: #ffffff;
-$color-image-overlay: #965942;
-$color-image-overlay-rgb: rgb(150, 89, 66);
-$opacity-image-overlay: 0.0;
-$hover-overlay-opacity: 0.4;
-$color-border: rgba(0,0,0,0);
-$color-border-form: rgba(0,0,0,0);
-$color-border-form-darker: rgba(0, 0, 0, 0.0);
-$color-video-bg: #e9e0cd;
-$global-color-image-loader-primary: rgba(49, 31, 25, 0.06);
-$global-color-image-loader-secondary: rgba(49, 31, 25, 0.12);
+$color-body-rgb: rgb(241, 235, 223);
+
+$color-overlay: #965942;
+$color-overlay-rgb: rgb(150, 89, 66);
+
+// $color-text: #311f19;
+// $color-text-rgb: rgb(49, 31, 25);
+// $color-body-text: #311f19;
+// $color-sale-text: #311f19;
+// $color-small-button-text-border: rgba(0,0,0,0);
+// $color-text-field: #ffffff;
+// $color-text-field-text: #311f19;
+// $color-text-field-text-rgb: rgb(49, 31, 25);
+// $color-btn-primary: #000000;
+// $color-btn-primary-darker: #000000;
+// $color-btn-primary-text: #ffffff;
+// $color-blankstate: rgba(49, 31, 25, 0.7);
+// $color-blankstate-border: rgba(49, 31, 25, 0.2);
+// $color-blankstate-background: rgba(49, 31, 25, 0.1);
+// $color-text-focus: #643f33;
+// $color-overlay-text-focus: #e6e6e6;
+// $color-btn-primary-focus: #404040;
+// $color-btn-social-focus: rgba(64, 64, 64, 0.0);
+// $color-small-button-text-border-focus: rgba(64, 64, 64, 0.0);
+// $predictive-search-focus: #e9e0cd;
+// $color-body: #f1ebdf;
+// $color-bg: #f1ebdf;
+// $color-bg-rgb: rgb(241, 235, 223);
+// $color-bg-alt: rgba(49, 31, 25, 0.05);
+// $color-bg-currency-selector: rgba(49, 31, 25, 0.2);
+// $color-overlay-title-text: #ffffff;
+// $color-image-overlay: #965942;
+// $color-image-overlay-rgb: rgb(150, 89, 66);
+// $opacity-image-overlay: 0.0;
+// $hover-overlay-opacity: 0.4;
+// $color-border: rgba(0,0,0,0);
+// $color-border-form: rgba(0,0,0,0);
+// $color-border-form-darker: rgba(0, 0, 0, 0.0);
+// $color-video-bg: #e9e0cd;
+// $global-color-image-loader-primary: rgba(49, 31, 25, 0.06);
+// $global-color-image-loader-secondary: rgba(49, 31, 25, 0.12);

@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
   grid-gap: 2rem;
-  padding: 0 1rem;
   text-align: center;
 
   article {
@@ -26,13 +25,3 @@
     }
   }
 }
-
-// @media screen and (min-width: $desktop-breakpoint) {
-//   #portfolio-page {
-//     article {
-//       vertical-align: text-top;
-//       display: inline-block;
-//       width: 30%;
-//     }
-//   }
-// }

@@ -8,25 +8,14 @@
   form {
     max-width: $breakpoint-mobile * 0.6;
     margin: 0px auto;
-    h4 {
-      font-family: $primary-font;
-      margin-bottom: 0;
-    }
     p {
       text-align: center;
     }
     input[type="text"], input[type="email"] {
-      width: 100%;
       height: $whitespace * 1;
     }
     textarea {
-      width: 100%;
       height: $whitespace * 3;
-    }
-    input[type="submit"] {
-      cursor: pointer;
-      width: $whitespace * 3;
-      height: $whitespace * 1;
     }
     div {
       margin-bottom: 2em;

@@ -3,26 +3,56 @@
 /* ==========================================================================
    Base styles
    ========================================================================== */
+*,
+*:before,
+*:after {
+  /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-// ::-moz-selection {
-//   background: $color-text-focus;
-//   color: white;
-//   text-shadow: none;
-// }
+::-moz-selection {
+  background: $fang-color;
+  color: white;
+  text-shadow: none;
+}
 
-// ::selection {
-//   background: $color-text-focus;
-//   color: white;
-//   text-shadow: none;
-// }
+::selection {
+  background: $fang-color;
+  color: white;
+  text-shadow: none;
+}
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
+.link-text {
+  color : $fang-color;
+}
+
 a:hover {
   cursor: pointer;
+}
+
+button {
+  background-color: rgba(51,51,51,1);
+  border: none;
+  color: white;
+  font-family: "Century Gothic";
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: $whitespace * 0.3 $whitespace * 1;
+}
+
+input, textarea {
+  width: 100%;
+  background: white;
+  border: none;
+  margin-bottom: $whitespace;
+  padding: $whitespace*0.5;
 }
 
 html {
@@ -34,9 +64,9 @@ body {
 }
 
 p {
-  color: $color-blankstate;
+  color: $color-text-body;
 }
 
 section {
-  margin-top: $whitespace * 2;
+  margin-top: $whitespace ;
 }

@@ -1,5 +1,8 @@
+@use "typebase" as *;
+
 .page-content {
 	width: 840px;
+	padding: 0 20px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,7 +19,7 @@
 }
 @media screen and (max-width: 767px) {
 	.page-content {
-        margin-top: 80px;
+    margin-top: 80px;
 		width: 100%;
 	}
 }
