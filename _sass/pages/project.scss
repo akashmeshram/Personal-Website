@@ -2,10 +2,16 @@
    WORK-ITEM SECTION
    ========================================================================== */
 
+@use "variables" as *;
+
 #project-page {
+  margin-bottom: $whitespace * 4;
   div {
     text-align: center;
     margin-bottom: 2em;
+    .project-title {
+      font-family: $primary-font;
+    }
     img {
       width: 100%;
       aspect-ratio: 840 / 500;

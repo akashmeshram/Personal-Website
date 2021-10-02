@@ -49,10 +49,11 @@ button {
 
 input, textarea {
   width: 100%;
-  background: white;
+  background: none;
   border: none;
   margin-bottom: $whitespace;
   padding: $whitespace*0.5;
+  border-bottom: 1px solid $color-text;
 }
 
 html {

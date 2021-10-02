@@ -19,9 +19,12 @@
       transition: all .25s ease;
     }
     .work-header {
+      color: inherit;
       margin: 0 1em;
       text-transform: uppercase;
-      font-family: $primary-font;
+    }
+    a:hover {
+      color : $fang-color;
     }
   }
 }
