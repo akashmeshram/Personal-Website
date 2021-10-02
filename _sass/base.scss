@@ -1,5 +1,3 @@
-@use "variables" as *;
-
 /* ==========================================================================
    Base styles
    ========================================================================== */
@@ -58,10 +56,12 @@ input, textarea {
 
 html {
   background-color: $color-body;
+  min-height: 100vh;
 }
 
 body {
   color: $color-text;
+  min-height: 100vh;
 }
 
 p {
