@@ -10,40 +10,6 @@ $body-font: "Montserrat", sans-serif;
     src: url("../fonts/Century Gothic.ttf");
 }
 
-// @font-face {
-//   font-family: 'proxima-nova';
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Bold.eot');
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Bold.woff2') format('woff2'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Bold.woff') format('woff'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Bold.ttf') format('truetype');
-//   font-weight: 800;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'proxima-nova';
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Regular.eot');
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Regular.woff2') format('woff2'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Regular.woff') format('woff'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-Regular.ttf') format('truetype');
-//   font-weight: 400;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'proxima-nova';
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-RegularIt.eot');
-//   src: url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-RegularIt.woff2') format('woff2'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-RegularIt.woff') format('woff'),
-//     url('https://assets.kennethwang.dev/fonts/Proxima%20Nova/subset-ProximaNova-RegularIt.ttf') format('truetype');
-//   font-weight: 400;
-//   font-style: italic;
-// }
-
-
 html {
   font-size: 100%;
 }
@@ -141,41 +107,4 @@ ul,
 ol,
 small {
   @include margin-bottom(1);
-}
-
-blockquote {
-  @include margin-bottom(1);
-  @include size(p);
-  padding: 1rem 0 1rem 1.6rem;
-  border-left: 0.5rem solid black;
-  margin-top: $whitespace;
-}
-
-cite {
-  &:before {
-    content: '\2021 ';
-  }
-  color: black;
-  display: block;
-}
-
-@mixin container($width: 48rem) {
-	max-width: $width;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: $whitespace auto;
-}
-
-pre {
-  @include margin-bottom(1);
-  code {
-    white-space: pre;
-  }
-}
-
-code {
-  background: #eeeeee;
-  white-space: nowrap;
-  @include size(small);
-  padding: 3px 6px;
 }
