@@ -23,8 +23,11 @@ header {
   }
 
   #navbar-toggle {
-    i {
-      @include size(h3);
+    svg {
+      display: block;
+      margin: auto;
+      width: 1.5em;
+      height: 1.5em;
     }
   }
 
