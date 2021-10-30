@@ -18,18 +18,15 @@
             }
         }
     }
-}
-
-@media screen and (min-width: $breakpoint-tablet) {
-    #about-page {
+    @include mq('tablet') {
         flex-direction: row;
         align-items: center;
-        #profile-image {
-            flex: 1 1 0;
-        }
         #profile-text {
             flex: 2 1 0;
             margin-left: 2em;
+        }
+        #profile-image {
+            flex: 1 1 0;
         }
     }
 }

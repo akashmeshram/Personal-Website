@@ -1,19 +1,21 @@
 /* =============================================================================
    HEADER AND NAVIGATION
    ========================================================================== */
+$hamburger : 1.719rem;
 
 header {
   position: fixed;
   top: 0;
+  padding: 0 $whitespace * 0.5;
   width: 100%;
   border-bottom: 1px solid $color-text;
-  background-color: $color-body;
+  background-color: rgba($color: #fff, $alpha: 0.9);
 
   div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.6em;
+    padding: $whitespace * 0.2;
   }
 
   #logo {
@@ -22,18 +24,14 @@ header {
     @include size(h3);
   }
 
-  #navbar-toggle {
-    svg {
-      display: block;
-      margin: auto;
-      width: 1.5em;
-      height: 1.5em;
-    }
+  svg {
+    display: block;
+    margin: auto;
+    width: $hamburger;
+    height:$hamburger;
   }
 
-  .active {
-    display: block;
-  }
+  .active { display: block; }
 
   nav {
     width: 100%;
@@ -44,30 +42,23 @@ header {
       display: block;
       @include size(h5);
       text-transform: uppercase;
+      &.active{ color: $fang-color; }
     }
   }
-}
 
-@media only screen and (min-width: $breakpoint-mobile) {
-  header {
+  @include mq('tablet') {
     position: static;
     border-bottom: none;
     margin-bottom: $whitespace * 2;
+    background: none;
     div {
       justify-content: center;
-      #logo {
-        letter-spacing: 0.2em;
-      }
-      #navbar-toggle {
-        display: none;
-      }
+      #logo { letter-spacing: 0.2em; }
+      #navbar-toggle { display: none; }
     }
     #menu {
       display: block;
-      span {
-        display: inline-block;
-      }
+      span { display: inline-block; }
     }
   }
-  
 }

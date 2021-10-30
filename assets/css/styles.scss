@@ -2,10 +2,12 @@
 ---
 @charset "UTF-8";
 @import "variables";
+@import "mixin";
 @import "typebase";
 @import "base";
 @import "components/layout";
 @import "components/header";
+@import "components/footer";
 @import "pages/home";
 @import "pages/about";
 @import "pages/portfolio";

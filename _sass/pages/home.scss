@@ -12,12 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-}
-
-@media screen and (min-width: $breakpoint-tablet) {
-  #home-page {
-    div {
+    @include mq('tablet') {
       aspect-ratio: auto 1100 / 500;
       background-image: url("../images/desktop.jpg");
     }
