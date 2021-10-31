@@ -20,7 +20,7 @@ header {
 
   #logo {
     text-transform: uppercase;
-    font-family: "Century Gothic";
+    font-family: $header-font;
     @include size(h3);
   }
 

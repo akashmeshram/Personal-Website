@@ -11,14 +11,12 @@
 }
 
 ::-moz-selection {
-  background: $fang-color;
-  color: white;
+  background: rgba($color: $fang-color, $alpha: 0.3);
   text-shadow: none;
 }
 
 ::selection {
-  background: $fang-color;
-  color: white;
+  background: rgba($color: $fang-color, $alpha: 0.3);
   text-shadow: none;
 }
 
@@ -47,13 +45,16 @@ a {
 a:hover { cursor: pointer; }
 
 button {
-  background-color: rgba(51,51,51,1);
-  border: none;
-  color: white;
-  font-family: "Century Gothic";
+  border: 1px solid $color-text;
   text-transform: uppercase;
   cursor: pointer;
-  padding: $whitespace * 0.3 $whitespace * 1;
+  letter-spacing: 0.1rem;
+  padding: $whitespace * 0.2 $whitespace * 0.6;
+  &:hover {
+    background-color: $fang-color;
+    color: white;
+    border-color: $fang-color;
+  }
 }
 
 input, textarea {

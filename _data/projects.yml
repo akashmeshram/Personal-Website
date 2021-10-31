@@ -1,14 +1,14 @@
 - name: La Musique
   image: /assets/app-img/lamusic.png
-  link: lamusic.html
+  link: lamusic
   
 - name: Sketch Predictor
   image: /assets/app-img/drw.jpg
-  link: drw.html
+  link: drw
 
 - name: Lfractal
   image: https://akashmeshram.github.io/Lfractal-html-version/Annotation.png
-  link: lfractal.html
+  link: lfractal
 
 - name: Deep News Classifier
   image: /assets/app-img/news.png
@@ -20,19 +20,19 @@
 
 - name: Style Transfer
   image: /assets/app-img/str.jpeg
-  link: str.html
+  link: str
 
 - name: Devanagari matrix flow
   image: /assets/app-img/hindu.png
-  link: hindu.html
+  link: hindu
 
 - name: Ogura Hyakunin Isshu
   image: https://i2.wp.com/itsjapantime.com/wp-content/uploads/2018/07/karuta1.jpg?w=659&ssl=1
-  link: karuta.html
+  link: karuta
 
 - name: Firefly Sync
   image: /assets/app-img/firefly.png
-  link: firefly.html
+  link: firefly
 
 - name: Bluetooth LE Analyzer
   image: /assets/app-img/ble.jpg
@@ -40,7 +40,7 @@
 
 - name: Shield Life
   image: /assets/app-img/slife.png
-  link: slife.html
+  link: slife
 
 - name: CNT with Tersoff
   image: /assets/app-img/nanotube.jpg
@@ -48,7 +48,7 @@
 
 - name: 2048 Puzzle
   image: /assets/app-img/2048.png
-  link: 2048.html
+  link: 2048
 
 - name: Microcanonical ensemble
   image: /assets/app-img/esemble.jpg
@@ -56,27 +56,27 @@
 
 - name: Lorenz Attractor
   image: /assets/app-img/lorenz.png
-  link: lorenz.html
+  link: lorenz
 
 - name: Maze Generator
   image: /assets/app-img/maze.png
-  link: maze.html
+  link: maze
 
 - name: Stochastic Perlin Noise
   image: /assets/app-img/perlin.png
-  link: perlin.html
+  link: perlin
 
 - name: 3-D Biome
   image: /assets/app-img/biome.png
-  link: biome.html
+  link: biome
 
 - name: ML Sketch Brush
   image: /assets/app-img/robot.png
-  link: robot.html
+  link: robot
 
 - name: Snake Game
   image: /assets/app-img/snake.png
-  link: snake.html
+  link: snake
   
 - name: Mandelbrot set
   image: /assets/app-img/mbset.jpg
@@ -84,9 +84,9 @@
 
 - name: Truchet’s tiling
   image: /assets/app-img/truchet.png
-  link: truchet.html
+  link: truchet
   
 - name: TIC TAC TOE
   image: /assets/app-img/ttt.png
-  link: ttt.html
+  link: ttt
 

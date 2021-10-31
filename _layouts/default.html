@@ -12,8 +12,7 @@
 
 	<!-- Fonts & Icons -->
 	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="/assets/css/reset.css">
@@ -25,14 +24,12 @@
 	{% include header.html %}
 
 	{{ content }}
-
-	{% include footer.html %}
 	
 </body>
 
 <script type="text/javascript">
-	let mainNav = document.getElementById('menu');
-	let navBarToggle = document.getElementById('navbar-toggle');
+	const mainNav = document.getElementById('menu');
+	const navBarToggle = document.getElementById('navbar-toggle');
 
 	navBarToggle.addEventListener('click', function () {
 	  mainNav.classList.toggle('active');

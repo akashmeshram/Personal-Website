@@ -9,10 +9,12 @@
   div {
     text-align: center;
     margin-bottom: 2em;
-    .project-title { font-family: $primary-font; }
     img {
       width: 100%;
       aspect-ratio: 840 / 500;
+    }
+    button {
+      margin: 0 1em;
     }
   }
 }

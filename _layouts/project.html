@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section class="page-content" id="project-page">
+<main id="project-page">
 	<div>
-		<h2 class="project-title">{{ page.title }}</h2>
+		<h2>{{ page.title }}</h2>
 		<p>{{ page.tech }}</p>
 	</div>
 
@@ -28,7 +28,7 @@ layout: default
 		{% endif %}
 	</div>
 
-	<div>
+	<article>
 		{{ content }}
-	</div>
-</section>
+	</article>
+</main>

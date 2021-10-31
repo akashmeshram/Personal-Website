@@ -4,7 +4,7 @@
 
 #connect-page {
   form {
-    max-width: $breakpoint-mobile * 0.6;
+    max-width: map_get($breakpoints, 'tablet') * 0.6;
     margin: 0 auto;
     p {
       text-align: center;
@@ -19,6 +19,19 @@
       margin-bottom: 2em;
       &:last-child {
         text-align: center;
+      }
+    }
+  }
+  aside {
+    margin:  $whitespace * 4 auto $whitespace;
+    text-align: center;
+    p {
+      margin-bottom: $whitespace * 0.5;
+    }
+    a {
+      margin: 0 $whitespace * 0.5;
+      &:hover{
+        color: $fang-color;
       }
     }
   }
