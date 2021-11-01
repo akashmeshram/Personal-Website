@@ -1,13 +1,11 @@
 - name: La Musique
-  image: /assets/app-img/lamusic.png
   slug: lamusic
   
 - name: Sketch Predictor
   image: /assets/app-img/drw.jpg
   slug: drw
 
-- name: Lfractal
-  image: https://akashmeshram.github.io/Lfractal-html-version/Annotation.png
+- name: Lindenmayer fractals
   slug: lfractal
 
 - name: Deep News Classifier
