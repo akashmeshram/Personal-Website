@@ -7,18 +7,29 @@ permalink: /portfolio
 <main id="portfolio-page">
 		
 		{% for item in site.data.projects %}
-	
 			<article>
-				<a href="project/{{ item.link }}">
+				<a 
+					{% if item.slug %} 
+						href="project/{{ item.slug }}"
+					{% else %}
+						href="{{ item.link }}"
+						target="_blank"
+					{% endif %}
+				>
 					<div class="work-thumbnail">
-							<img src="{{ item.image }}">
+							<img
+								{% if item.image %} 
+									src="{{ item.image }}"
+								{% else %}
+									src="/assets/app-img/{{ item.slug }}"
+								{% endif %}
+							>
 					</div>
 					<p class="work-header">
 						{{ item.name }} 
 					</p>
 				</a>
 			</article>
-
 		{% endfor %}
 
 </main>
