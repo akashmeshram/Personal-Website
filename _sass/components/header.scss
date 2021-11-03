@@ -31,7 +31,7 @@ header {
     height:$hamburger;
   }
 
-  .active { display: block; }
+  .mobile-display { display: block; }
 
   nav {
     width: 100%;
@@ -42,7 +42,7 @@ header {
       display: block;
       @include size(h5);
       text-transform: uppercase;
-      &.active{ color: $fang-color; }
+      &#active-page{ color: $fang-color; }
     }
   }
 
@@ -54,9 +54,9 @@ header {
     div {
       justify-content: center;
       #logo { letter-spacing: 0.2em; }
-      #navbar-toggle { display: none; }
+      #toggle { display: none; }
     }
-    #menu {
+    nav {
       display: block;
       span { display: inline-block; }
     }
