@@ -9,6 +9,11 @@ layout: default
 	</div>
 
 	<div>
+		{% if page.video != null %}
+			<video autoplay loop muted playsinline>
+				<source src="{{ page.video }}" type="video/webm">
+			</video>
+		{% endif %}
 		{% if page.gif != null %}
 			<img src="{{ page.gif }}" />
 		{% endif %}
