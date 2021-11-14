@@ -17,8 +17,7 @@
   link: https://akashmeshram.github.io/Youtube-Playlist-Visualizer/
 
 - name: Style Transfer
-  image: /assets/app-img/str.jpeg
-  slug: str
+  slug: style-transfer
 
 - name: Devanagari matrix flow
   image: /assets/app-img/hindu.png
