@@ -27,7 +27,7 @@ strong {
   font-weight: bold;
 }
 
-a, button {
+a, button, svg {
   color: inherit;
   transition: 0.3s;
 }
