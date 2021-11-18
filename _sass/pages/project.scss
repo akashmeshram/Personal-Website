@@ -9,12 +9,38 @@
   div {
     text-align: center;
     margin-bottom: 2em;
+    small {
+      color: $fang-color;
+    }
     video, image {
       width: 100%;
       aspect-ratio: 3 / 2;
     }
     button {
       margin: 0 1em;
+    }
+  }
+  article {
+    a {
+      color: $fang-color;
+    }
+    img, video {
+      display: block;
+      margin: auto;
+    }
+    table {
+      margin: auto;
+      @include margin-bottom(1);
+      border:1px solid $color-text-body;
+      color: $color-text-body;
+    }
+    ul, ol {
+      padding-left: 2em;
+      li {
+        display: list-item;
+        list-style: inside;
+        color: $color-text-body;
+      }
     }
   }
 }

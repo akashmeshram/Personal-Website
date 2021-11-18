@@ -10,7 +10,7 @@ permalink: /portfolio
 			<article>
 				<a 
 					{% if item.slug %} 
-						href="project/{{ item.slug }}"
+						href="{{ item.slug }}"
 					{% else %}
 						href="{{ item.link }}"
 						target="_blank"
