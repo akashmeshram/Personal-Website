@@ -42,7 +42,7 @@ header {
       display: block;
       @include size(h5);
       text-transform: uppercase;
-      &#active-page{ color: $fang-color; }
+      &#active-page{ color: $accent-color; }
     }
   }
 

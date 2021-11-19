@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: article
 title: LA MUSIQUE
 launch: https://akashmeshram.github.io/La-Musique/
 source: https://github.com/akashmeshram/La-Musique
@@ -53,4 +53,4 @@ In the tape machine component, Tone.js provides a Transport API for tracking tim
 ### Future Scope
 
 1. **Download Functionality**: Downloading one's creation is the most important feature which is missing and I wish to add it as soon as possible.
-2. **Collaborative Playing**: Another feature which i did like to implement is people playing on the same instance of web app at the same time. This could be done in multiple room like environment with each rom hosting a group of users.
+2. **Collaborative Playing**: Another feature which i did like to implement is people playing on the same instance of web app at the same time. This could be done in multiple room like environment with each room hosting a group of users.

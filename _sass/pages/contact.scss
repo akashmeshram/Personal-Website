@@ -32,9 +32,9 @@
       align-items: center;
       margin: 0 $whitespace * 0.5;
       &:hover {
-        color: $fang-color;
+        color: $accent-color;
         svg {
-          fill : $fang-color;
+          fill : $accent-color;
         }
       }
     

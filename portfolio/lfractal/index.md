@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: article
 title: Lfractal
 launch: https://akashmeshram.github.io/LFractal/
 source: https://github.com/akashmeshram/LFractal

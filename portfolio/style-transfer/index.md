@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: article
 title: Style Transfer
 launch: https://akashmeshram.github.io/Style-Transfer/
 source: https://github.com/akashmeshram/Style-Transfer
