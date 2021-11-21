@@ -2,38 +2,38 @@
 layout: default
 ---
 
-<main id="project-page">
-	<div>
-		<h2>{{ page.title }}</h2>
-		<small>{{ page.tech }}</small>
-	</div>
+<main id="article-page">
+  <div>
+    <h2>{{ page.title }}</h2>
+    {% assign tags = page.tech | split: ", " %}
+  </div>
+  <div>
+    {% for tag in tags %}
+    <small>{{ tag }}</small>
+    {% endfor %}
+  </div>
 
-	<div>
-		{% if page.video != null %}
-			<video autoplay loop muted playsinline>
-				<source src="{{ page.video }}" type="video/webm">
-			</video>
-		{% endif %}
-		{% if page.gif != null %}
-			<img src="{{ page.gif }}" />
-		{% endif %}
-	</div>
-	
+  <div>
+    {% if page.video != null %}
+    <video autoplay loop muted playsinline>
+      <source src="{{ page.video }}" type="video/webm" />
+    </video>
+    {% endif %} {% if page.gif != null %}
+    <img src="{{ page.gif }}" />
+    {% endif %}
+  </div>
 
-	<div>
-		{% if page.launch != null %}
-			<a href="{{ page.launch }}" target="_blank">
-				<button>LAUNCH</button> 
-			</a>
-		{% endif %}
-		{% if page.source != null %}
-			<a href="{{ page.source }}" target="_blank">
-				<button>GET CODE</button>
-			</a>
-		{% endif %}
-	</div>
+  <div>
+    {% if page.launch != null %}
+    <a href="{{ page.launch }}" target="_blank">
+      <button>LAUNCH</button>
+    </a>
+    {% endif %} {% if page.source != null %}
+    <a href="{{ page.source }}" target="_blank">
+      <button>GET CODE</button>
+    </a>
+    {% endif %}
+  </div>
 
-	<article>
-		{{ content }}
-	</article>
+  <article>{{ content }}</article>
 </main>
