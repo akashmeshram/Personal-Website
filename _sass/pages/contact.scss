@@ -4,12 +4,18 @@
 
 #connect-page {
   form {
-    max-width: map_get($breakpoints, 'tablet') * 0.6;
+    max-width: map_get($breakpoints, "tablet") * 0.6;
     margin: 0 auto;
     p {
       text-align: center;
     }
-    input[type="text"], input[type="email"] {
+    input,
+    textarea,
+    button {
+      margin-top: $whitespace;
+    }
+    input[type="text"],
+    input[type="email"] {
       height: $whitespace * 1;
     }
     textarea {
@@ -23,7 +29,7 @@
     }
   }
   aside {
-    margin:  $whitespace * 4 auto $whitespace;
+    margin: $whitespace * 4 auto $whitespace;
     display: flex;
     justify-content: center;
     a {
@@ -34,10 +40,9 @@
       &:hover {
         color: $accent-color;
         svg {
-          fill : $accent-color;
+          fill: $accent-color;
         }
       }
-    
     }
   }
 }

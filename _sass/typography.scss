@@ -37,7 +37,7 @@ $type-scale-desktop: (
   h3: 2.211rem,
   h4: 1.663rem,
   p: 1.25rem,
-  small: 1rem // deviates from modular scale,
+  small: 1rem // deviates from modular scale,,,
 );
 
 /* 
@@ -69,7 +69,7 @@ $type-scale-mobile: (
   h3: 1.719rem,
   h4: 1.375rem,
   p: 1.1rem,
-  small: 0.94rem // deviates from modular scale,
+  small: 0.94rem // deviates from modular scale,,,
 );
 
 @mixin size($level) {

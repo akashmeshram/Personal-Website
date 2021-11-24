@@ -10,16 +10,28 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, p, blockquote, figure, ol, ul {
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
 
-main, li {
+main,
+li {
   display: block;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: inherit;
 }
 
@@ -27,7 +39,11 @@ strong {
   font-weight: bold;
 }
 
-a, button, svg {
+a,
+button,
+svg,
+input,
+textarea {
   color: inherit;
   transition: 0.3s;
 }

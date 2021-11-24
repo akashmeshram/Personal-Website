@@ -1,17 +1,18 @@
 - name: La Musique
   slug: lamusic
-  
+  desc: Web based Music sequencer
+
 - name: Style Transfer
   slug: style-transfer
+  desc: Image re-composition using style of other image
 
-- name: Lindenmayer fractals
+- name: L fractals
   slug: lfractal
+  desc: Web based formal system for rendering fractals
 
-# - name: Sketch Predictor
-#   image: /assets/app-img/drw.jpg
-#   slug: drw
-
-# - name: Deep News Classifier
+- name: Sketch Predictor
+  slug: sketch-predictor
+  desc: Predict your Hand drawn sketch with machines!
 #   image: /assets/app-img/news.png
 #   link: https://github.com/vishwajeetkr/Deep_News_Classifier
 
@@ -74,7 +75,7 @@
 # - name: Snake Game
 #   image: /assets/app-img/snake.png
 #   slug: snake
-  
+
 # - name: Mandelbrot set
 #   image: /assets/app-img/mbset.jpg
 #   link: https://akashmeshram.github.io/Mandelbrot-set/
@@ -82,7 +83,7 @@
 # - name: Truchet’s tiling
 #   image: /assets/app-img/truchet.png
 #   slug: truchet
-  
+
 # - name: TIC TAC TOE
 #   image: /assets/app-img/ttt.png
 #   slug: ttt

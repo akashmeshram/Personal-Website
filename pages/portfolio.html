@@ -5,7 +5,6 @@ permalink: /portfolio
 ---
 
 <main id="portfolio-page">
-		
 		{% for item in site.data.projects %}
 			<article>
 				<a 
@@ -25,11 +24,13 @@ permalink: /portfolio
 								{% endif %}
 							>
 					</div>
-					<p class="work-header">
+					<small class="work-header">
 						{{ item.name }} 
+					</small>
+					<p>
+						{{ item.desc }}
 					</p>
 				</a>
 			</article>
 		{% endfor %}
-
 </main>

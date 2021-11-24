@@ -69,9 +69,12 @@ textarea {
   width: 100%;
   background: none;
   border: none;
-  margin-bottom: $whitespace;
   padding: $whitespace * 0.5;
-  border-bottom: 1px solid $color-text;
+  border-bottom: 1px solid rgba($color: $color-text-body, $alpha: 0.5);
+  &:hover,
+  &:active {
+    border-color: $color-text;
+  }
 }
 
 p {
