@@ -3,30 +3,30 @@
 ============================================================================= */
 
 #about-page {
-    display: flex;
-    flex-direction: column;
-    img {
-        width: 100%;
-        aspect-ratio: auto;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+  div {
+    margin: 0 0.5em;
+    margin-bottom: 1em;
+    #profile-text {
+      .lead {
+        margin-top: 0;
+      }
     }
-    div {
-        margin: 0 0.5em;
-        margin-bottom: 1em;
-        #profile-text {
-            .lead {
-                margin-top: 0;
-            }
-        }
+  }
+  @include mq("tablet") {
+    flex-direction: row;
+    align-items: center;
+    #profile-text {
+      flex: 2 1 0;
+      margin-left: 2em;
     }
-    @include mq('tablet') {
-        flex-direction: row;
-        align-items: center;
-        #profile-text {
-            flex: 2 1 0;
-            margin-left: 2em;
-        }
-        #profile-image {
-            flex: 1 1 0;
-        }
+    #profile-image {
+      flex: 1 1 0;
     }
+  }
 }

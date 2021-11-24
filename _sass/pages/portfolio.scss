@@ -12,7 +12,7 @@
     img {
       width: 100%;
       aspect-ratio: 3 / 2;
-      border: solid $color-text-body 1px;
+      // border: solid $color-text-body 1px;
     }
     .work-header {
       color: $color-text-body;
@@ -24,6 +24,9 @@
     p {
       color: inherit;
       line-height: 1.25;
+    }
+    @include mq("tablet", max) {
+      text-align: center;
     }
   }
 }

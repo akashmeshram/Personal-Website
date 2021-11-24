@@ -1,7 +1,7 @@
 /* =============================================================================
    HEADER AND NAVIGATION
    ========================================================================== */
-$hamburger : 1.719rem;
+$hamburger: 1.719rem;
 
 header {
   position: fixed;
@@ -28,10 +28,12 @@ header {
     display: block;
     margin: auto;
     width: $hamburger;
-    height:$hamburger;
+    height: $hamburger;
   }
 
-  .mobile-display { display: block; }
+  .mobile-display {
+    display: block;
+  }
 
   nav {
     width: 100%;
@@ -42,23 +44,31 @@ header {
       display: block;
       @include size(h5);
       text-transform: uppercase;
-      &#active-page{ color: $accent-color; }
+      &#active-page {
+        color: $accent-color;
+      }
     }
   }
 
-  @include mq('tablet') {
+  @include mq("tablet") {
     position: static;
     border-bottom: none;
     margin-bottom: $whitespace * 2;
     background: none;
     div {
       justify-content: center;
-      #logo { letter-spacing: 0.2em; }
-      #toggle { display: none; }
+      #logo {
+        letter-spacing: 0.2em;
+      }
+      #toggle {
+        display: none;
+      }
     }
     nav {
       display: block;
-      span { display: inline-block; }
+      span {
+        display: inline-block;
+      }
     }
   }
 }
