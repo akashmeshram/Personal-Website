@@ -12,25 +12,25 @@
 
 ::-moz-selection {
   background: rgba($color: $accent-color, $alpha: 0.8);
-  color: $color-body;
+  color: $body-background;
   text-shadow: none;
 }
 
 ::selection {
   background: rgba($color: $accent-color, $alpha: 0.8);
-  color: $color-body;
+  color: $body-background;
   text-shadow: none;
 }
 
 html {
-  background-color: $color-body;
+  background-color: $body-background;
   min-height: 100vh;
   overflow-y: scroll;
   overflow-y: overlay;
 }
 
 body {
-  color: $color-text;
+  color: $primary-color;
   min-height: 100vh;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 button {
-  border: 1px solid $color-text;
+  border: 1px solid $primary-color;
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 0.1rem;
@@ -70,13 +70,21 @@ textarea {
   background: none;
   border: none;
   padding: $whitespace * 0.5;
-  border-bottom: 1px solid rgba($color: $color-text-body, $alpha: 0.5);
+  border-bottom: 1px solid rgba($color: $secondary-color, $alpha: 0.5);
   &:hover,
   &:active {
-    border-color: $color-text;
+    border-color: $primary-color;
+  }
+}
+
+input,
+textarea {
+  @include transition(border);
+  @include input-placeholder {
+    color: $secondary-color;
   }
 }
 
 p {
-  color: $color-text-body;
+  color: $secondary-color;
 }

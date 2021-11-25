@@ -33,6 +33,10 @@
     display: flex;
     justify-content: center;
     a {
+      @include transition(color);
+      svg {
+        @include transition(fill);
+      }
       display: flex;
       flex-direction: column;
       align-items: center;

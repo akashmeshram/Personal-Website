@@ -9,21 +9,35 @@
   article {
     width: auto;
     margin-bottom: 2em;
-    img {
-      width: 100%;
-      aspect-ratio: 3 / 2;
-      // border: solid $color-text-body 1px;
+    .work-thumbnail {
+      overflow: hidden;
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        @include transition(all);
+        &:hover {
+          transform: scale(1.04);
+        }
+      }
     }
     .work-header {
-      color: $color-text-body;
+      color: $secondary-color;
       text-transform: capitalize;
-    }
-    a:capitalize {
-      color: $accent-color;
+      @include transition(color);
     }
     p {
-      color: inherit;
+      color: $primary-color;
       line-height: 1.25;
+      @include transition(color);
+    }
+    &:hover {
+      .work-header {
+        color: $accent-color;
+      }
+      p {
+        color: $secondary-color;
+      }
     }
     @include mq("tablet", max) {
       text-align: center;

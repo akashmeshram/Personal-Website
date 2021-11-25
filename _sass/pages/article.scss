@@ -36,15 +36,15 @@
     }
     table {
       margin: auto;
-      border: 1px solid $color-text-body;
-      color: $color-text-body;
+      border: 1px solid $secondary-color;
+      color: $secondary-color;
     }
     ul {
       padding-left: 2em;
       li {
         display: list-item;
         list-style: inside;
-        color: $color-text-body;
+        color: $secondary-color;
       }
     }
     ol {
@@ -54,7 +54,7 @@
       counter-increment: item;
       list-style: none inside;
       overflow: hidden;
-      color: $color-text-body;
+      color: $secondary-color;
     }
     ol > li:before {
       content: counter(item);
