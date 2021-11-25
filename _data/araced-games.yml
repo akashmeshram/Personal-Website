@@ -1,0 +1,19 @@
+- name: Tic Tac Toe
+  slug: tic-tac-toe
+  link: https://github.com/akashmeshram/Tic-Tac-Toe
+
+- name: 2048 Board Puzzle
+  slug: 2048
+  link: https://github.com/akashmeshram/2048-Board-Puzzle
+
+- name: Snake Game
+  slug: snake
+  link: https://github.com/akashmeshram/JS-snake-game
+
+- name: Maze Generator
+  slug: maze
+  link: https://github.com/akashmeshram/Maze-Generator
+
+- name: Vue Tic Tac Toe
+  slug: vue-tic-tac-toe
+  link: https://github.com/akashmeshram/2048-Board-Puzzle

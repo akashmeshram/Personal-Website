@@ -13,6 +13,10 @@
 - name: Sketch Predictor
   slug: sketch-predictor
   desc: Predict your Hand drawn sketch with machines!
+
+- name: Arcade Games
+  slug: araced-games
+  desc: Some simple arcade/puzzle games for spending time.
 #   image: /assets/app-img/news.png
 #   link: https://github.com/vishwajeetkr/Deep_News_Classifier
 

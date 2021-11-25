@@ -4,14 +4,14 @@ title: Akash Meshram | Portfolio
 permalink: /portfolio
 ---
 
-<main id="portfolio-page">
-		{% for item in site.data.projects %}
+<main id="gallary-page">
+		{% for item in site.data.portfolio %}
 			<article>
 				<a 
 					{% if item.slug %} 
 						href="{{ item.slug }}"
 					{% else %}
-						href="{{ item.link }}"
+						href="{{ item.page }}"
 						target="_blank"
 					{% endif %}
 				>

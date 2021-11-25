@@ -1,0 +1,20 @@
+---
+layout: default
+title: Akash Meshram | Araced Games 
+permalink: /portfolio/araced-games
+---
+
+<main id="gallary-page">
+		{% for item in site.data.araced-games %}
+			<article>
+				<a href="{{ item.link }}" target="_blank">
+					<div class="work-thumbnail">
+							<img src="/assets/portfolio/lamusic.webp">
+					</div>
+					<p class="work-header">
+						{{ item.name }} 
+					</p>
+				</a>
+			</article>
+		{% endfor %}
+</main>
