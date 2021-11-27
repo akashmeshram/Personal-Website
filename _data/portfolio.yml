@@ -14,9 +14,25 @@
   slug: sketch-predictor
   desc: Predict your Hand drawn sketch with machines!
 
+- name: Research Work
+  slug: research
+  desc: A few highlights of my tech experiments, ideas and reflections.
+
+- name: Machine Learning Notebooks
+  slug: machine-learning
+  desc: A few highlights of my tech experiments, ideas and reflections.
+
+- name: Art Exploration
+  slug: art-exploration
+  desc: A few highlights of my tech experiments, ideas and reflections.
+
 - name: Arcade Games
   slug: araced-games
   desc: Some simple arcade/puzzle games for spending time.
+
+- name: Other Works
+  slug: other-works
+  desc: A few highlights of my tech experiments, ideas and reflections.
 #   image: /assets/app-img/news.png
 #   link: https://github.com/vishwajeetkr/Deep_News_Classifier
 

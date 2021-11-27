@@ -4,7 +4,7 @@ title: Akash Meshram | Portfolio
 permalink: /portfolio
 ---
 
-<main id="gallary-page">
+<main id="gallery-page">
 		{% for item in site.data.portfolio %}
 			<article>
 				<a 
@@ -15,7 +15,7 @@ permalink: /portfolio
 						target="_blank"
 					{% endif %}
 				>
-					<div class="work-thumbnail">
+					<div class="gallery-thumbnail">
 							<img
 								{% if item.image %} 
 									src="{{ item.image }}"
@@ -24,7 +24,7 @@ permalink: /portfolio
 								{% endif %}
 							>
 					</div>
-					<p class="work-header">
+					<p class="gallery-header">
 						{{ item.name }} 
 					</p>
 					<p>

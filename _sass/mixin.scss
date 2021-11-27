@@ -120,3 +120,26 @@ $breakpoints: (
     right: 0;
   }
 }
+
+@mixin accent-button {
+  border: 1px solid $primary-color;
+  background: none;
+  @include transition(color, background-color, border-color);
+  &:hover {
+    background-color: $accent-color;
+    color: white;
+    border-color: $accent-color;
+  }
+}
+
+@mixin light-button {
+  border: 1px solid #f4f3f2;
+  background: #f4f3f2;
+  color: #67696d;
+  @include transition(color, background-color, border-color);
+  &:hover {
+    background-color: $accent-color;
+    color: white;
+    border-color: $accent-color;
+  }
+}

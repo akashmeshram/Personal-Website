@@ -1,0 +1,31 @@
+#list-page {
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    @include p-tb($whitespace);
+    @include m-tb($whitespace);
+    small {
+      @include light-button;
+      @include m-lr($whitespace * 0.125);
+      @include p-tb($whitespace * 0.125);
+      @include p-lr($whitespace * 0.25);
+    }
+    @include mq("tablet") {
+      flex-direction: row;
+      div {
+        &:first-child {
+          @include m-lr($whitespace);
+          flex: 2.5 1 0;
+          text-align: left;
+          small {
+            margin-left: 0;
+          }
+        }
+        &:nth-child(2) {
+          flex: 1 1 0;
+        }
+      }
+    }
+  }
+}

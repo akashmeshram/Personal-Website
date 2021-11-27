@@ -1,19 +1,29 @@
 - name: Tic Tac Toe
   slug: tic-tac-toe
-  link: https://github.com/akashmeshram/Tic-Tac-Toe
+  desc: Zypsy has worked closely with Stemma, from the initial brand development stage through to launching their multifaceted website.
+  launch: https://akashmeshram.github.io/Tic-Tac-Toe
+  source: https://github.com/akashmeshram/Tic-Tac-Toe
 
 - name: 2048 Board Puzzle
   slug: 2048
-  link: https://github.com/akashmeshram/2048-Board-Puzzle
+  desc: Zypsy has worked closely with Stemma, from the initial brand development stage through to launching their multifaceted website.
+  launch: https://akashmeshram.github.io/2048-Board-Puzzle
+  source: https://github.com/akashmeshram/2048-Board-Puzzle
 
 - name: Snake Game
   slug: snake
-  link: https://github.com/akashmeshram/JS-snake-game
+  desc: Zypsy has worked closely with Stemma, from the initial brand development stage through to launching their multifaceted website.
+  launch: https://akashmeshram.github.io/JS-snake-game
+  source: https://github.com/akashmeshram/JS-snake-game
 
 - name: Maze Generator
   slug: maze
-  link: https://github.com/akashmeshram/Maze-Generator
+  desc: Zypsy has worked closely with Stemma, from the initial brand development stage through to launching their multifaceted website.
+  launch: https://akashmeshram.github.io/Maze-Generator
+  source: https://github.com/akashmeshram/Maze-Generator
 
 - name: Vue Tic Tac Toe
-  slug: vue-tic-tac-toe
-  link: https://github.com/akashmeshram/2048-Board-Puzzle
+  slug: v-tic-tac-toe
+  desc: Zypsy has worked closely with Stemma, from the initial brand development stage through to launching their multifaceted website.
+  launch: https://akashmeshram.github.io/2048-Board-Puzzle
+  source: https://github.com/akashmeshram/2048-Board-Puzzle

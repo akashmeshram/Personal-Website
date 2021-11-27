@@ -1,15 +1,11 @@
-/* =============================================================================
-  WORK SECTION
-  ========================================================================== */
-
-#gallary-page {
+#gallery-page {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
   grid-gap: 2rem;
   article {
     width: auto;
     margin-bottom: 2em;
-    .work-thumbnail {
+    .gallery-thumbnail {
       overflow: hidden;
       img {
         display: block;
@@ -21,7 +17,7 @@
         }
       }
     }
-    .work-header {
+    .gallery-header {
       color: $secondary-color;
       text-transform: capitalize;
       @include transition(color);
@@ -32,7 +28,7 @@
       @include transition(color);
     }
     &:hover {
-      .work-header {
+      .gallery-header {
         color: $accent-color;
       }
       p {
