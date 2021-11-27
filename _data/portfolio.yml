@@ -20,7 +20,7 @@
 
 - name: Machine Learning Notebooks
   slug: machine-learning
-  page: https://github.com/akashmeshram
+  page: https://github.com/akashmeshram/Machine-Learning-Notebooks
   desc: A few highlights of my tech experiments, ideas and reflections.
 
 - name: Art Exploration
