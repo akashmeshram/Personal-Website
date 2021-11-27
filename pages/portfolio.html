@@ -8,11 +8,11 @@ permalink: /portfolio
 		{% for item in site.data.portfolio %}
 			<article>
 				<a 
-					{% if item.slug %} 
-						href="{{ item.slug }}"
-					{% else %}
+					{% if item.page %} 
 						href="{{ item.page }}"
 						target="_blank"
+					{% else %}
+						href="{{ item.slug }}"
 					{% endif %}
 				>
 					<div class="gallery-thumbnail">

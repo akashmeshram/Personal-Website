@@ -20,6 +20,7 @@
 
 - name: Machine Learning Notebooks
   slug: machine-learning
+  page: https://github.com/akashmeshram
   desc: A few highlights of my tech experiments, ideas and reflections.
 
 - name: Art Exploration
@@ -32,79 +33,4 @@
 
 - name: Other Works
   slug: other-works
-  desc: A few highlights of my tech experiments, ideas and reflections.
-#   image: /assets/app-img/news.png
-#   link: https://github.com/vishwajeetkr/Deep_News_Classifier
-
-# - name: Youtube Playlist Visualizer
-#   image: /assets/app-img/youtube.png
-#   link: https://akashmeshram.github.io/Youtube-Playlist-Visualizer/
-
-# - name: Devanagari matrix flow
-#   image: /assets/app-img/hindu.png
-#   slug: hindu
-
-# - name: Ogura Hyakunin Isshu
-#   image: https://i2.wp.com/itsjapantime.com/wp-content/uploads/2018/07/karuta1.jpg?w=659&ssl=1
-#   slug: karuta
-
-# - name: Firefly Sync
-#   image: /assets/app-img/firefly.png
-#   slug: firefly
-
-# - name: Bluetooth LE Analyzer
-#   image: /assets/app-img/ble.jpg
-#   link: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
-
-# - name: Shield Life
-#   image: /assets/app-img/slife.png
-#   slug: slife
-
-# - name: CNT with Tersoff
-#   image: /assets/app-img/nanotube.jpg
-#   link: https://github.com/akashmeshram/CNT-with-Tersoff
-
-# - name: 2048 Puzzle
-#   image: /assets/app-img/2048.png
-#   slug: 2048
-
-# - name: Microcanonical ensemble
-#   image: /assets/app-img/esemble.jpg
-#   link: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
-
-# - name: Lorenz Attractor
-#   image: /assets/app-img/lorenz.png
-#   slug: lorenz
-
-# - name: Maze Generator
-#   image: /assets/app-img/maze.png
-#   slug: maze
-
-# - name: Stochastic Perlin Noise
-#   image: /assets/app-img/perlin.png
-#   slug: perlin
-
-# - name: 3-D Biome
-#   image: /assets/app-img/biome.png
-#   slug: biome
-
-# - name: ML Sketch Brush
-#   image: /assets/app-img/robot.png
-#   slug: robot
-
-# - name: Snake Game
-#   image: /assets/app-img/snake.png
-#   slug: snake
-
-# - name: Mandelbrot set
-#   image: /assets/app-img/mbset.jpg
-#   link: https://akashmeshram.github.io/Mandelbrot-set/
-
-# - name: Truchet’s tiling
-#   image: /assets/app-img/truchet.png
-#   slug: truchet
-
-# - name: TIC TAC TOE
-#   image: /assets/app-img/ttt.png
-#   slug: ttt
-
+  desc: Some random in-progress and to-do things.

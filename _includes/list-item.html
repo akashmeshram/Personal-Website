@@ -1,0 +1,27 @@
+<article>
+  <div>
+    <h4 class="list-header">{{ item.name }}</h4>
+    {% if item.desc != null %}
+    <p>
+      {{ item.desc }}
+    </p>
+    {% endif %}
+    <p>
+      {% if item.launch != null %}
+      <a href="{{ item.launch }}" target="_blank">
+        <small>LAUNCH</small>
+      </a>
+      {% endif %}
+      {% if item.source != null %}
+      <a href="{{ item.source }}" target="_blank">
+        <small>GET CODE</small>
+      </a>
+      {% endif %}
+    </p>
+  </div>
+  {% if item.slug != null %}
+  <div>
+    <img src="/assets/portfolio/{{ item.slug }}.webp" />
+  </div>
+  {% endif %}
+</article>

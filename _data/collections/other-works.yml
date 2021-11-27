@@ -1,0 +1,20 @@
+- name: Stop The Blood Campain
+  desc: A webapp program for first aid practice campain
+  source: https://github.com/akashmeshram/StopTheBlood
+
+- name: Cantor Disaster Management App
+  desc: App to cater failure of classical medical facilities during disaster
+  source: https://github.com/akashmeshram/Cantor-Disaster-Management-App
+
+- name: Medical Forms Optical Character Recognition
+  desc: A NLP serverless program of scrapping medical forms.
+  source: https://github.com/akashmeshram/OCR_Hackathon
+
+- name: Youtube-Playlist-Visualizer
+  desc: Program to segregate YouTube playlist with grid view.
+  launch: https://akashmeshram.github.io/Youtube-Playlist-Visualizer/
+  source: https://github.com/akashmeshram/Youtube-Playlist-Visualizer
+
+- name: Shield Life
+  desc: We are creating an app which would use predictive analytics to generate representations for a disaster-affected region.
+  source: https://github.com/akashmeshram/Shield-Life

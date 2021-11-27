@@ -1,0 +1,47 @@
+- name: Video Download Scripts
+  desc: Batch Scripts and Colab notebook to download YouTube videos / audios /playlist
+  source: https://github.com/akashmeshram/video-download-scripts
+
+- name: Bluetooth LE Analyzer
+  desc: A program to pinpoint different BLE devices along with their status and characteristics with the hosted device.
+  source: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
+
+- name: Javascript Hash Table
+  desc: A Hash table written in javascript.
+  source: https://github.com/akashmeshram/Javascript-Hash-Table
+
+- name: VM to HACK Translator
+  desc: A simple Virtual Machine to Assembly translator for HACK assembly language.
+  source: https://github.com/akashmeshram/VM-to-HACK-Translator
+
+- name: Raw Blockchain
+  desc: A block-chain created in JavaScript.
+  source: https://github.com/akashmeshram/Blockchain-JavaScript
+
+- name: ML Sketch Brush
+  desc: This simple program lets you draw pattern with a circular brush by moving your face.
+  source: https://github.com/akashmeshram/ML-Sketch-Brush
+
+- name: CNT with Tersoff
+  desc: Simulation of carbon nanotube by using tersoff potential.
+  source: https://github.com/akashmeshram/CNT-with-Tersoff
+
+- name: On Air Piano
+  desc: Play piano in air using web
+  source: https://github.com/akashmeshram/On-Air-Piano
+
+- name: Time Table Problem with Genetic Algorithm
+  desc: Implementation of Genetic Algorithm for optimizing Time table for University.
+  source: https://github.com/akashmeshram/Time-Table-Problem-with-Genetic-Algorithm
+
+- name: Simple Microcanonical Ensemble
+  desc: A microcanonical ensemble is the statistical ensemble that is used to represent the possible states of a mechanical system which has an exactly specified total energy.
+  source: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
+
+- name: Electice
+  desc: A decentralize voting platform using block chain technology
+  source: https://github.com/akashmeshram/Electice
+
+- name: Video Speech
+  desc: Subtitle creating platform based on Mozilla's DeepSpeech Model
+  source: https://github.com/akashmeshram/Speech-To-Text-Program

@@ -1,0 +1,24 @@
+- name: Tic Tac Toe
+  slug: araced-games
+  launch: https://akashmeshram.github.io/Tic-Tac-Toe
+  source: https://github.com/akashmeshram/Tic-Tac-Toe
+
+- name: 2048 Board Puzzle
+  slug: araced-games
+  launch: https://akashmeshram.github.io/2048-Board-Puzzle
+  source: https://github.com/akashmeshram/2048-Board-Puzzle
+
+- name: Snake Game
+  slug: araced-games
+  launch: https://akashmeshram.github.io/JS-snake-game
+  source: https://github.com/akashmeshram/JS-snake-game
+
+- name: Maze Generator
+  slug: araced-games
+  launch: https://akashmeshram.github.io/Maze-Generator
+  source: https://github.com/akashmeshram/Maze-Generator
+
+- name: Vue Tic Tac Toe
+  slug: araced-games
+  launch: https://akashmeshram.github.io/2048-Board-Puzzle
+  source: https://github.com/akashmeshram/2048-Board-Puzzle
