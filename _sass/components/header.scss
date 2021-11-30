@@ -47,6 +47,9 @@ header {
       &#active-page {
         color: $accent-color;
       }
+      &:hover {
+        color: $accent-color;
+      }
     }
   }
 
