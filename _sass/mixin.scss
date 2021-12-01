@@ -124,6 +124,7 @@ $breakpoints: (
 @mixin accent-button {
   border: 1px solid $primary-color;
   background: none;
+  color: $primary-color;
   @include transition(color, background-color, border-color);
   &:hover {
     background-color: $accent-color;

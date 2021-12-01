@@ -47,21 +47,9 @@ a {
   color: $accent-color;
 }
 
-a:hover {
-  cursor: pointer;
-}
-
+a:hover,
 button {
-  border: 1px solid $primary-color;
-  text-transform: uppercase;
   cursor: pointer;
-  letter-spacing: 0.1rem;
-  padding: $whitespace * 0.2 $whitespace * 0.6;
-  &:hover {
-    background-color: $accent-color;
-    color: white;
-    border-color: $accent-color;
-  }
 }
 
 input,

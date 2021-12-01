@@ -21,6 +21,11 @@
     textarea {
       height: $whitespace * 3;
     }
+    button {
+      @include accent-button;
+      text-transform: uppercase;
+      padding: $whitespace * 0.2 $whitespace * 0.6;
+    }
     div {
       margin-bottom: 2em;
       &:last-child {

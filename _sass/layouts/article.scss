@@ -25,7 +25,10 @@
       }
     }
     button {
+      @include accent-button;
       margin: 0 1em;
+      text-transform: uppercase;
+      padding: $whitespace * 0.2 $whitespace * 0.6;
     }
   }
   article {
