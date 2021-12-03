@@ -1,5 +1,8 @@
 footer {
-  margin: $whitespace * 2 0 $whitespace * 1;
-  position: relative;
+  @include m-tb($whitespace * 0.5);
+  bottom: 0;
+  width: 100%;
+  position: absolute;
   text-align: center;
+  color: $secondary-color;
 }

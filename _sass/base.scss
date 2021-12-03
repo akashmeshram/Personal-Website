@@ -30,8 +30,13 @@ html {
 }
 
 body {
+  position: relative;
   color: $primary-color;
   min-height: 100vh;
+  padding-bottom: $whitespace * 3;
+  @include mq("tablet", max) {
+    padding-top: $whitespace * 3;
+  }
 }
 
 section {

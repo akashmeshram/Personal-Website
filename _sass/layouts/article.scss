@@ -46,7 +46,6 @@
       color: $secondary-color;
     }
     ul {
-      padding-left: 2em;
       li {
         display: list-item;
         list-style: inside;
@@ -61,10 +60,12 @@
       list-style: none inside;
       overflow: hidden;
       color: $secondary-color;
+      padding-left: 2em;
     }
     ol > li:before {
       content: counter(item);
-      margin-right: 1em;
+      margin-left: -2em;
+      margin-top: 0.2em;
       border-radius: 50%;
       width: 2rem;
       height: 2rem;
