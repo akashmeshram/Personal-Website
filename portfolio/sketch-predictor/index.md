@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Style Transfer
-launch: https://akashmeshram.github.io/Style-Transfer/
-source: https://github.com/akashmeshram/Style-Transfer
+title: Sketch Predictor
+launch: https://akashmeshram.github.io/Sketch_Predictor/
+source: https://github.com/akashmeshram/Sketch_Predictor
 tech: Webpack, tensorflow.js, Deep Learning, UI Design
 video: https://user-images.githubusercontent.com/56295559/143175655-8b0667ec-1543-4616-99f8-b1ba084e60de.mp4
 ---
