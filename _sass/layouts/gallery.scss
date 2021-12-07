@@ -23,6 +23,7 @@
       @include transition(color);
     }
     p {
+      @include margin-top(0.25);
       color: $secondary-color;
       line-height: 1.25;
       @include transition(color);

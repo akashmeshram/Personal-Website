@@ -11,7 +11,7 @@ video: https://user-images.githubusercontent.com/56295559/143175655-8b0667ec-154
 
 From a young age, we develop the ability to communicate what we see by drawing on paper with a pencil or crayon. In this way we learn to express a sequential, vector representation of an image as a short sequence of strokes. However, we do not understand the world as a grid of pixels, but rather develop abstract concepts to represent what we see.
 
-My goal was to train machines to predict and generalize abstract concepts in a manner similar to humans. As a first step towards this goal, I trained a deep learning model on a dataset of hand-drawn sketches, each represented as strokes of a pen. In doing so, we created a model that potentially has many applications, from assisting the creative process of an artist, to helping teach students how to draw.
+My goal was to train machines to predict and generalize abstract concepts in a manner similar to humans. As a first step towards this goal, I trained a deep learning model on a dataset of hand-drawn sketches, each represented as strokes of a pen. This potentially has many applications, from assisting the creative process of an artist, to helping teach students how to draw.
 
 Every time you draw a sketch, a machine learning algorithm tries to analyse it and match a list of categories. Try drawing multiple sketches to find out!
 

@@ -14,7 +14,7 @@
   source: https://github.com/akashmeshram/Truchet-Tiling
 
 - name: Lorenz Attractor
-  desc: A simple program of synchronous flashing of fireflies.
+  desc: The Lorenz attractor is an example of a strange attractor. Strange attractors are unique from other phase-space attractors in that one does not know exactly where on the attractor the system will be.
   launch: https://akashmeshram.github.io/Lorenz-Attractor
   source: https://github.com/akashmeshram/Lorenz-Attractor
 

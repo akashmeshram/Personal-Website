@@ -16,20 +16,20 @@
 
 - name: Research Work
   slug: research
-  desc: A few highlights of my tech experiments, ideas and reflections.
+  desc: A few highlights of experiments, ideas and reflections.
 
 - name: Machine Learning Notebooks
   slug: machine-learning
   page: https://github.com/akashmeshram/Machine-Learning-Notebooks
-  desc: A few highlights of my tech experiments, ideas and reflections.
+  desc: Footprints of my dive in the ML / DL expedition
 
 - name: Art Exploration
   slug: art-exploration
-  desc: A few highlights of my tech experiments, ideas and reflections.
+  desc: Inspirations of growing art and culture from across the tech
 
 - name: Arcade Games
   slug: araced-games
-  desc: Some simple arcade/puzzle games for spending time.
+  desc: Simple retro arcade/puzzle games for spending time.
 
 - name: Other Works
   slug: other-works

@@ -1,6 +1,15 @@
 - name: Video Download Scripts
-  desc: Batch Scripts and Colab notebook to download YouTube videos / audios /playlist
+  desc: Batch Scripts and Colab notebook to download YouTube videos / audios / playlist
+  launch: https://colab.research.google.com/github/akashmeshram/video-download-scripts/blob/main/scripts.ipynb
   source: https://github.com/akashmeshram/video-download-scripts
+
+- name: Video Speech
+  desc: Subtitle creating platform based on Mozilla's DeepSpeech Model
+  source: https://github.com/akashmeshram/Speech-To-Text-Program
+
+- name: VM to HACK Translator
+  desc: A simple Virtual Machine to Assembly translator for HACK assembly language.
+  source: https://github.com/akashmeshram/VM-to-HACK-Translator
 
 - name: Bluetooth LE Analyzer
   desc: A program to pinpoint different BLE devices along with their status and characteristics with the hosted device.
@@ -9,10 +18,6 @@
 - name: Javascript Hash Table
   desc: A Hash table written in javascript.
   source: https://github.com/akashmeshram/Javascript-Hash-Table
-
-- name: VM to HACK Translator
-  desc: A simple Virtual Machine to Assembly translator for HACK assembly language.
-  source: https://github.com/akashmeshram/VM-to-HACK-Translator
 
 - name: Raw Blockchain
   desc: A block-chain created in JavaScript.
@@ -39,9 +44,5 @@
   source: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
 
 - name: Electice
-  desc: A decentralize voting platform using block chain technology
+  desc: A decentralize voting platform using blockchain
   source: https://github.com/akashmeshram/Electice
-
-- name: Video Speech
-  desc: Subtitle creating platform based on Mozilla's DeepSpeech Model
-  source: https://github.com/akashmeshram/Speech-To-Text-Program
