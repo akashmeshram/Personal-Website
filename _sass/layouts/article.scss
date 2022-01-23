@@ -35,6 +35,9 @@
     }
   }
   article {
+    * {
+      @include margin-bottom(0.94);
+    }
     a {
       color: $accent-color;
     }

@@ -36,8 +36,6 @@
         color: $primary-color;
       }
     }
-    @include mq("tablet", max) {
-      text-align: center;
-    }
+    text-align: center;
   }
 }

@@ -96,25 +96,33 @@ $whitespace: $line-height * map-get($type-scale-desktop, p);
   }
 }
 
+@mixin margin-bottom($level) {
+  margin-bottom: $line-height * map-get($type-scale-desktop, p) * $level;
+  @include mq("tablet", "max") {
+    margin-bottom: $line-height * map-get($type-scale-tablet, p) * $level;
+  }
+  @include mq("phone", "max") {
+    margin-bottom: $line-height * map-get($type-scale-mobile, p) * $level;
+  }
+}
+
 h1 {
   @include size(h1);
-  @include margin-top(3);
+  @include margin-top(2.686);
 }
 h2 {
   @include size(h2);
-  @include margin-top(2);
+  @include margin-top(2.148);
 }
 h3 {
   @include size(h3);
-  @include margin-top(1);
+  @include margin-top(1.719);
 }
 h4 {
   @include size(h4);
-  @include margin-top(0.5);
 }
 p {
   @include size(p);
-  @include margin-top(0.5);
 }
 li {
   @include size(p);

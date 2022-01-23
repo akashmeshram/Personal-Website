@@ -11,10 +11,8 @@
   }
   div {
     margin-bottom: 1em;
-    #profile-text {
-      .lead {
-        margin-top: 0;
-      }
+    p {
+      @include margin-bottom(0.94);
     }
   }
   @include mq("tablet") {
