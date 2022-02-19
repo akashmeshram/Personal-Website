@@ -8,13 +8,13 @@
     margin: 0 $whitespace * 1;
     margin-bottom: $whitespace * 1;
     aspect-ratio: auto 500 / 1100;
-    background-image: url("../images/building.webp");
+    background-image: url("/assets/images/building.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     @include mq("tablet") {
       aspect-ratio: auto 1100 / 500;
-      background-image: url("../images/harbour.webp");
+      background-image: url("/assets/images/harbour.webp");
     }
   }
 }

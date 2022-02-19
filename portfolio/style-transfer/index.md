@@ -9,7 +9,7 @@ video: https://user-images.githubusercontent.com/56295559/141607532-13082505-cd2
 
 ### Overview
 
-If we’re being honest with ourselves, not everyone is born an artist. Some are more adept at language or other tactile tasks. In our school days, doing simple drawing assignments was also a difficult and lengthy process.  I get a lot of people telling me that they used to be really into art when they were children but had to give it up because of a variety of reasons (and dearly wish they could make art again). But with recent advances in technologies like deep learning, almost anyone can enjoy the pleasure that comes along with creating and sharing an artistic masterpiece.
+If we’re being honest with ourselves, not everyone is born an artist. Some are more adept at language or other tactile tasks. In our school days, doing simple drawing assignments was also a difficult and lengthy process. I get a lot of people telling me that they used to be really into art when they were children but had to give it up because of a variety of reasons (and dearly wish they could make art again). But with recent advances in technologies like deep learning, almost anyone can enjoy the pleasure that comes along with creating and sharing an artistic masterpiece.
 
 Style transfer is a computer vision technique that allows us to recompose the content of an image in the style of another. If you’ve ever imagined what a photo might look like if it were painted by a famous artist, then style transfer is the computer vision technique that turns this into a reality.
 
@@ -17,8 +17,8 @@ This new capability opens up endless doors in design, content generation, and th
 
 ### Research
 
-One of the most exciting developments in deep learning was  [artistic style transfer](https://arxiv.org/abs/1508.06576). Using this technique, we can generate beautiful new artworks in a range of styles.
-Style transfer is an example of image stylization, an image processing and manipulation technique that’s been studied for several decades within the broader field of [non-photorealistic rendering.](https://en.wikipedia.org/wiki/Non-photorealistic_rendering).
+One of the most exciting developments in deep learning was [artistic style transfer](https://arxiv.org/abs/1508.06576). Using this technique, we can generate beautiful new artworks in a range of styles.
+Style transfer is an example of image stylization, an image processing and manipulation technique that’s been studied for several decades within the broader field of [non-photorealistic rendering](https://en.wikipedia.org/wiki/Non-photorealistic_rendering).
 
 Basically it is an optimization technique used to take three images, a **content** image, a **style reference** image (such as an artwork by a famous painter), and the **input** image you want to style — and blend them together such that the input image is transformed to look like the content image, but “painted” in the style of the style image.
 
@@ -47,8 +47,11 @@ So the entire process of getting your own artwork is in just three steps : Uploa
 Additionally style of content image can be blended into stylized output using blend strength slider.
 
 ### Reflection
-#### Performance 
-Importing a pre-trained model from an external source has a performance impact on  application. Images, for example, which are more than 250px in size, are significantly going to slow down transfer and may even crash the app.
+
+#### Performance
+
+Importing a pre-trained model from an external source has a performance impact on application. Images, for example, which are more than 250px in size, are significantly going to slow down transfer and may even crash the app.
 
 #### Privacy and Speed
+
 As the app does not need to send data to a remote server, transfer is actually faster. Even better, if you have direct access to the GPU, the app should run even faster.
