@@ -1,0 +1,15 @@
+- name: La Musique
+  slug: lamusic
+  desc: Web based Music sequencer
+
+- name: Style Transfer
+  slug: style-transfer
+  desc: Image re-composition using style of other image
+
+- name: L fractals
+  slug: lfractal
+  desc: Web based formal system for rendering fractals
+
+- name: Sketch Predictor
+  slug: sketch-predictor
+  desc: Predict your Hand drawn sketch with machines!

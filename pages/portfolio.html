@@ -4,33 +4,14 @@ title: Akash Meshram | Portfolio
 permalink: /portfolio
 ---
 
-<main id="gallery-page">
-		{% for item in site.data.portfolio %}
-			<article>
-				<a 
-					{% if item.page %} 
-						href="{{ item.page }}"
-						target="_blank"
-					{% else %}
-						href="/portfolio/{{ item.slug }}"
-					{% endif %}
-				>
-					<div class="gallery-thumbnail">
-							<img
-								{% if item.image %} 
-									src="{{ item.image }}"
-								{% else %}
-									src="/assets/portfolio/{{ item.slug }}.webp"
-								{% endif %}
-							>
-					</div>
-					<p class="gallery-header">
-						{{ item.name }} 
-					</p>
-					<p>
-						{{ item.desc }}
-					</p>
-				</a>
-			</article>
-		{% endfor %}
+<main class="gallery-container">
+
+	{% for item in site.data.featured %}
+		{% include gallery-item.html path="/portfolio" %} 
+	{% endfor %}
+
+	{% for item in site.data.collection %}
+		{% include gallery-item.html path="/portfolio" %} 
+	{% endfor %}
+
 </main>
