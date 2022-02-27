@@ -8,6 +8,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  // border: 2px red solid;
 }
 
 ::-moz-selection {
@@ -33,7 +34,7 @@ body {
   position: relative;
   color: $primary-color;
   min-height: 100vh;
-  padding-bottom: $whitespace * 3;
+  padding-bottom: $whitespace * 2;
   @include mq("tablet", max) {
     padding-top: $whitespace * 3;
   }
@@ -84,4 +85,25 @@ p {
 
 .page-title {
   text-align: center;
+}
+
+// Scroll Bar
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $secondary-color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $primary-color;
 }

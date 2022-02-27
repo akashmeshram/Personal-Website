@@ -108,15 +108,15 @@ $whitespace: $line-height * map-get($type-scale-desktop, p);
 
 h1 {
   @include size(h1);
-  @include margin-top(2.686);
+  @include margin-top(4);
 }
 h2 {
   @include size(h2);
-  @include margin-top(2.148);
+  @include margin-top(3);
 }
 h3 {
   @include size(h3);
-  @include margin-top(1.719);
+  @include margin-top(2);
 }
 h4 {
   @include size(h4);

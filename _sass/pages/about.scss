@@ -12,7 +12,7 @@
   div {
     margin-bottom: 1em;
     p {
-      @include margin-bottom(0.94);
+      @include margin-bottom(0.5);
     }
   }
   @include mq("tablet") {

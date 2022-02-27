@@ -35,8 +35,8 @@
     }
   }
   article {
-    * {
-      @include margin-bottom(0.94);
+    > * {
+      @include margin-bottom(0.5);
     }
     a {
       color: $accent-color;
@@ -44,10 +44,10 @@
     img,
     video {
       display: block;
-      margin: auto;
+      @include m-centre;
     }
     table {
-      margin: auto;
+      @include m-centre;
       border: 1px solid $secondary-color;
       color: $secondary-color;
     }

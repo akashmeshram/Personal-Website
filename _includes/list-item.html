@@ -19,9 +19,15 @@
       {% endif %}
     </p>
   </div>
-  {% if item.slug != null %}
+  {% if item.slug != null or item.image != null %}
   <div>
-    <img src="/assets/portfolio/{{ item.slug }}.webp" />
+    <img
+          {% if item.image %} 
+            src="{{ item.image }}"
+          {% else %}
+            src="/assets{{ include.path }}/{{item.slug }}.webp"
+          {% endif %}
+        >
   </div>
   {% endif %}
 </article>

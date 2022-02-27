@@ -1,34 +1,41 @@
-- name: Ogura Hyakunin Isshu
-  desc: A classical Japanese anthology of one hundred Japanese waka by one hundred poets.
-  launch: https://akashmeshram.github.io/Ogura-Hyakunin-Isshu
-  source: https://github.com/akashmeshram/Ogura-Hyakunin-Isshu
-
-- name: Firfly Sync
-  desc: A simple program of synchronous flashing of fireflies.
-  launch: https://akashmeshram.github.io/Firfly-Sync
-  source: https://github.com/akashmeshram/Firfly-Sync
-
-- name: Truchet Tiling
-  desc: Generated patterns formed by diagonal tilings
-  launch: https://akashmeshram.github.io/Truchet-Tiling
-  source: https://github.com/akashmeshram/Truchet-Tiling
-
 - name: Lorenz Attractor
+  slug: lorenz-attractor
   desc: The Lorenz attractor is an example of a strange attractor. Strange attractors are unique from other phase-space attractors in that one does not know exactly where on the attractor the system will be.
   launch: https://akashmeshram.github.io/Lorenz-Attractor
   source: https://github.com/akashmeshram/Lorenz-Attractor
 
+- name: Devenagari Matrix Flow
+  slug: devenagari-matrix-flow
+  desc: A program that generates rain like flow of Devanagari characters.
+  launch: https://akashmeshram.github.io/Devenagari-Matrix-Flow
+  source: https://github.com/akashmeshram/Devenagari-Matrix-Flow
+
+- name: Ogura Hyakunin Isshu
+  image: https://snippettee.files.wordpress.com/2011/11/chihayafuru-karuta-cards.jpg
+  desc: A classical Japanese anthology of one hundred Japanese waka by one hundred poets.
+  launch: https://akashmeshram.github.io/Ogura-Hyakunin-Isshu
+  source: https://github.com/akashmeshram/Ogura-Hyakunin-Isshu
+
 - name: Stochastic Perlin Noise
+  slug: stochastic-perlin-noise
   desc: Stochastically chosen noise generation.
   launch: https://akashmeshram.github.io/Stochastic-Perlin-Noise
   source: https://github.com/akashmeshram/Stochastic-Perlin-Noise
 
+- name: Firfly Sync
+  slug: firfly-sync
+  desc: A simple program of synchronous flashing of fireflies.
+  launch: https://akashmeshram.github.io/Firfly-Sync
+  source: https://github.com/akashmeshram/Firfly-Sync
+
 - name: Mandelbrot set
+  slug: mandelbrot-set
   desc: The mandelbrot set is the set of complex numbers c for which the complex numbers of the sequence zn remain bounded in absolute value.
   launch: https://akashmeshram.github.io/Mandelbrot-set
   source: https://github.com/akashmeshram/Mandelbrot-set
 
-- name: Devenagari Matrix Flow
-  desc: A program that generates rain like flow of Devanagari characters.
-  launch: https://akashmeshram.github.io/Devenagari-Matrix-Flow
-  source: https://github.com/akashmeshram/Devenagari-Matrix-Flow
+- name: Truchet Tiling
+  slug: truchet-tiling
+  desc: Generated patterns formed by diagonal tilings
+  launch: https://akashmeshram.github.io/Truchet-Tiling
+  source: https://github.com/akashmeshram/Truchet-Tiling
