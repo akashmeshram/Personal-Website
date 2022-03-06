@@ -6,7 +6,7 @@
       {{ item.desc }}
     </p>
     {% endif %}
-    <p>
+    <div>
       {% if item.launch != null %}
       <a href="{{ item.launch }}" target="_blank">
         <small>LAUNCH</small>
@@ -17,7 +17,7 @@
         <small>GET CODE</small>
       </a>
       {% endif %}
-    </p>
+    </div>
   </div>
   {% if item.slug != null or item.image != null %}
   <div>

@@ -5,9 +5,12 @@
 #about-page {
   display: flex;
   flex-direction: column;
-  img {
-    width: 100%;
-    aspect-ratio: auto;
+  #profile-image {
+    aspect-ratio: auto 1 / 1;
+    background-image: url("/assets/images/profile-cl.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   div {
     margin-bottom: 1em;
@@ -24,6 +27,7 @@
     }
     #profile-image {
       flex: 1 1 0;
+      aspect-ratio: auto 3 / 4;
     }
   }
 }

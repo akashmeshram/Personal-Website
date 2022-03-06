@@ -2,14 +2,14 @@
   slug: research
   desc: A few highlights of experiments, ideas and reflections.
 
+- name: Art Exploration
+  slug: art-exploration
+  desc: Inspirations from growing art and culture from across the tech
+
 - name: Machine Learning Notebooks
   slug: machine-learning
   page: https://github.com/akashmeshram/Machine-Learning-Notebooks
   desc: Footprints of my dive in the ML / DL expedition
-
-- name: Art Exploration
-  slug: art-exploration
-  desc: Inspirations of growing art and culture from across the tech
 
 - name: Arcade Games
   slug: arcade-games

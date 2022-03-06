@@ -5,11 +5,18 @@
     text-align: center;
     @include p-tb($whitespace);
     @include m-tb($whitespace);
-    small {
-      @include light-button;
-      @include m-lr($whitespace * 0.125);
-      @include p-tb($whitespace * 0.125);
-      @include p-lr($whitespace * 0.25);
+    div:first-child {
+      div {
+        @include m-tb($whitespace * 0.5);
+        a:nth-child(2) {
+          margin-left: $whitespace * 0.5;
+        }
+        small {
+          @include light-button;
+          @include p-tb($whitespace * 0.125);
+          @include p-lr($whitespace * 0.25);
+        }
+      }
     }
     @include mq("tablet") {
       flex-direction: row;

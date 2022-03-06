@@ -1,10 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains everything related to typography.
 // -----------------------------------------------------------------------------
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400|Philosopher:400");
-
 $line-height: 1.75;
-$header-font: "Philosopher", serif;
+$hero-font: "Philosopher", sans-serif;
+$text-font: "Mulish", sans-serif;
 $body-font: "Work Sans", sans-serif;
 
 html {
@@ -20,7 +19,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $header-font;
+  font-weight: 400;
+}
+
+p {
+  font-family: $text-font;
 }
 
 /* 
