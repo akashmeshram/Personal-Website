@@ -1,3 +1,9 @@
+- name: Webcam Art
+  slug: webcam-art
+  desc: Webcam Art is an abstract art intented to convert camera feed into ASCII Block Diagram.
+  launch: https://akashmeshram.github.io/Webcam-Art
+  source: https://github.com/akashmeshram/Webcam-Art
+
 - name: Lorenz Attractor
   slug: lorenz-attractor
   desc: The Lorenz attractor is an example of a strange attractor. Strange attractors are unique from other phase-space attractors in that one does not know exactly where on the attractor the system will be.
