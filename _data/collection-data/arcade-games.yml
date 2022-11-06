@@ -1,24 +1,18 @@
-- name: Tic Tac Toe
-  slug: arcade-games
-  launch: https://akashmeshram.github.io/Tic-Tac-Toe
-  source: https://github.com/akashmeshram/Tic-Tac-Toe
-
-- name: 2048 Board Puzzle
-  slug: arcade-games
-  launch: https://akashmeshram.github.io/2048-Board-Puzzle
-  source: https://github.com/akashmeshram/2048-Board-Puzzle
-
 - name: Snake Game
-  slug: arcade-games
-  launch: https://akashmeshram.github.io/JS-snake-game
-  source: https://github.com/akashmeshram/JS-snake-game
+  slug: snake-game
+  launch: https://akashmeshram.github.io/Snake-Game
+  source: https://github.com/akashmeshram/Snake-Game
 
 - name: Maze Generator
-  slug: arcade-games
+  slug: maze-generator
   launch: https://akashmeshram.github.io/Maze-Generator
   source: https://github.com/akashmeshram/Maze-Generator
 
-- name: Vue Tic Tac Toe
-  slug: arcade-games
+- name: 2048 Board Puzzle
+  slug: 2048
   launch: https://akashmeshram.github.io/2048-Board-Puzzle
   source: https://github.com/akashmeshram/2048-Board-Puzzle
+# - name: Tic Tac Toe
+#   slug: arcade-games
+#   launch: https://akashmeshram.github.io/Tic-Tac-Toe
+#   source: https://github.com/akashmeshram/Tic-Tac-Toe

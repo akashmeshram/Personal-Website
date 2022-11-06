@@ -11,18 +11,22 @@
       @include flush-mtb;
     }
     small {
+      display: inline-block;
       background-color: #f4f3f2;
       color: $secondary-color;
-      margin: 0 0.5rem;
+      margin: 0.25rem 0.5rem;
       padding: 0.25rem 0.5rem;
       text-transform: uppercase;
       white-space: nowrap;
+      @include mq("tablet") {
+        margin: 0 auto;
+      }
     }
     video,
     image {
       width: 100%;
       background-color: #ecdbff;
-      padding: $whitespace * 0.25;
+      padding: $whitespace * 0.1;
       @include mq("tablet") {
         padding: $whitespace * 2;
       }
