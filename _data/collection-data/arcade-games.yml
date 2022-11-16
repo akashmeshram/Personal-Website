@@ -1,15 +1,18 @@
 - name: Snake Game
   slug: snake-game
+  desc: Play Snake. Eat the food at the coordinate point, but don't eat yourself!
   launch: https://akashmeshram.github.io/Snake-Game
   source: https://github.com/akashmeshram/Snake-Game
 
 - name: Maze Generator
   slug: maze-generator
+  desc: About Create and print random mazes in varying styles and sizes
   launch: https://akashmeshram.github.io/Maze-Generator
   source: https://github.com/akashmeshram/Maze-Generator
 
 - name: 2048 Board Puzzle
   slug: 2048
+  desc: 2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. It is played on a 4x4 grid using the arrows.
   launch: https://akashmeshram.github.io/2048-Board-Puzzle
   source: https://github.com/akashmeshram/2048-Board-Puzzle
 # - name: Tic Tac Toe
