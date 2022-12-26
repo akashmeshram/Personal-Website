@@ -16,7 +16,7 @@
         {% for item in site.data.navigation %}
             <span
                 {% if page.url == item.link %}
-                    id="active-page" 
+                    aria-current="page"
                 {% endif %}
             >
                 <a href="{{ item.link }}"> {{ item.name }} </a>
