@@ -1,7 +1,7 @@
 console.log(
   "".concat(
     "%c",
-    "© 2022 AKASH MESHRAM",
+    "© 2023 AKASH MESHRAM",
     "%c",
     "\n\n",
     "                                                                         \n",
