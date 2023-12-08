@@ -1,16 +1,22 @@
 console.log(
   "".concat(
     "%c",
-    "© 2023 AKASH MESHRAM",
+    "© 2024 AKASH MESHRAM",
     "%c",
     "\n\n",
     "                                                                         \n",
-    "  Hi there!                                                              \n",
-    "  If you have an oppertunity for me, do reach out.                       \n",
-    "  Connect with me at theakashmeshram@gmail.com / +91-8348461991          \n",
+    `  Oh, hello! Funny seeing you here.                                      \n`,
     "                                                                         \n",
-    "  My Résumé : drive.google.com/file/d/1QSFKMYjwjfucvnPyiZrk9TBP7CQwZv9M  \n",
-    "                                                                         \n"
+    `  If you're curious about how this site works,                           \n`,
+    `  it's running on Cloudflare Pages and site was built using Jekyll.      \n`,
+    `  I built the whole thing myself, including the design and content.      \n`,
+    `                                                                         \n`,
+    `  If you'd like to hang out, do reach out. Connect with me at:           \n`,
+    `  6388495akash@gmail.com / +91-8348461991                                \n`,
+    `                                                                         \n`,
+    `  And if you have an interesting opportunity, here's my résumé:          \n`,
+    `  https://drive.google.com/file/d/1IRUHyCKxXMB-jRZMS0mqYyeuOvYrghM_      \n`,
+    `                                                                         \n`
   ),
   "color: #aaa; background-color: #222; font-family:  monospace; font-size: 14px; font-weight: bold; padding: 8px 19px; border: 1px solid; margin: 20px;",
   "color: #aaa; background-color: #222; font-family:  monospace; font-size: 14px; font-weight: normal;"
