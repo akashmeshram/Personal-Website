@@ -6,7 +6,7 @@ Personal website created from scratch by [Akash Meshram](https://www.linkedin.co
 
 ## URL
 
-https://meshram.pages.dev/
+[akashmeshram.com](https://akashmeshram.com/)
 
 ## Demo
 
