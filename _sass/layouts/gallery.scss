@@ -5,18 +5,6 @@
   article {
     width: auto;
     margin-bottom: 2em;
-    .gallery-thumbnail {
-      overflow: hidden;
-      img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        @include transition(all);
-        &:hover {
-          transform: scale(1.04);
-        }
-      }
-    }
     .gallery-header {
       font-family: inherit;
       color: $primary-color;

@@ -7,13 +7,14 @@
       href="{{include.path}}/{{ item.slug }}"
     {% endif %}
   >
-    <div class="gallery-thumbnail">
+    <div class="thumbnail">
         <img
           {% if item.image %} 
             src="{{ item.image }}"
           {% else %}
             src="/assets/portfolio/{{item.slug }}.webp"
           {% endif %}
+          loading="lazy"
         >
     </div>
     <p class="gallery-header">

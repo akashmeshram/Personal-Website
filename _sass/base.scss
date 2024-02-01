@@ -87,6 +87,18 @@ p {
   text-align: center;
 }
 
+.thumbnail {
+  width: 100%;
+  padding-bottom: 75%;
+  @include image-container;
+  img {
+    @include transition(all);
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
+}
+
 // Scroll Bar
 /* width */
 ::-webkit-scrollbar {
