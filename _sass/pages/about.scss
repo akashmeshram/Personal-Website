@@ -20,13 +20,12 @@
   }
   @include mq("tablet") {
     flex-direction: row;
-    align-items: center;
     #profile-text {
-      flex: 2 1 0;
+      flex: 3 1 0;
       margin-left: 2em;
     }
     #profile-image {
-      flex: 1 1 0;
+      flex: 2 1 0;
       aspect-ratio: auto 3 / 4;
     }
   }
