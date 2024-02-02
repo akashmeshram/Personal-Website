@@ -8,6 +8,7 @@
     margin: 0 $whitespace * 1;
     margin-bottom: $whitespace * 1;
     aspect-ratio: auto 500 / 1100;
+    background-color: $asset-background;
     background-image: url("/assets/images/building.webp");
     background-position: center;
     background-repeat: no-repeat;
