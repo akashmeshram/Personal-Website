@@ -1,13 +1,15 @@
 - company: FrontPage Pvt. Ltd.
+  slug: frontpage
   position: Software Development Engineer
   start_date: "Mar 2022"
   end_date: "Present"
   description: >
     Developed a comprehensive paper trading system with integrated backend for exchanges, banks, and brokers. 
-    Designed algorithmic feeds for the app, crafted frontend screens, and engineered a trading chatbot with OpenAI GPT.
+    Created algorithmic feeds for the app, crafted web frontend screens, and worked on a trading chatbot with OpenAI GPT.
   tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ElasticSearch
 
 - company: YourStory Media Pvt. Ltd.
+  slug: yourstory
   position: Software Developer
   start_date: "Oct 2020"
   end_date: "Mar 2022"
@@ -17,6 +19,7 @@
   tech_stack: Node.js, React, Python, PostgreSQL, MySQL, RASA
 
 - company: Quantiphi, Inc.
+  slug: quantiphi
   position: Machine Learning Engineer
   start_date: "Aug 2020"
   end_date: "Oct 2020"
@@ -26,6 +29,7 @@
   tech_stack: Python, TensorFlow
 
 - company: MachineSense, LLC
+  slug: machinesense
   position: Software Engineer (Intern)
   start_date: "May 2019"
   end_date: "Jun 2019"
