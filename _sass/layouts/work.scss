@@ -1,8 +1,55 @@
+#work {
+  article {
+    @include p-tb($whitespace);
+    @include m-tb($whitespace);
+  }
+}
+
+.work-title {
+  @include mq("tablet", max) {
+    text-align: center;
+    @include p-tb($whitespace);
+  }
+  @include mq("tablet") {
+    @include m-lr($whitespace);
+  }
+}
+
 .work-item {
   img {
     box-shadow: 0 0 2px #ccc;
   }
   .work-position {
     color: $accent-color;
+    @include mq("tablet", max) {
+      @include p-tb($whitespace * 0.5);
+    }
+  }
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  div:first-child {
+    div {
+      @include m-tb($whitespace * 0.5);
+      small {
+        @include light-tab;
+      }
+    }
+  }
+  @include mq("tablet") {
+    flex-direction: row;
+    div {
+      &:first-child {
+        @include m-lr($whitespace);
+        flex: 2.5 1 0;
+        text-align: left;
+        small {
+          margin-left: 0;
+        }
+      }
+      &:nth-child(2) {
+        flex: 1 1 0;
+      }
+    }
   }
 }
