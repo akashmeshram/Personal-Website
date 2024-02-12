@@ -1,0 +1,11 @@
+---
+layout: list-page
+title: Work 
+permalink: /work
+---
+
+<main>
+  {% for item in site.data.work %}
+  {% include work-item.html path="/work" %}
+  {% endfor %}
+</main>

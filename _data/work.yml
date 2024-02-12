@@ -1,0 +1,35 @@
+- company: FrontPage Pvt. Ltd.
+  position: Software Development Engineer
+  start_date: "Mar 2022"
+  end_date: "Present"
+  description: >
+    Developed a comprehensive paper trading system with integrated backend for exchanges, banks, and brokers. 
+    Designed algorithmic feeds for the app, crafted frontend screens, and engineered a trading chatbot with OpenAI GPT.
+  tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ElasticSearch
+
+- company: YourStory Media Pvt. Ltd.
+  position: Software Developer
+  start_date: "Oct 2020"
+  end_date: "Mar 2022"
+  description: >
+    Developed serverless NLP tools on AWS for automating data scraping, 
+    Contributed to full-stack development of websites, and building AI chatbots from scratch.
+  tech_stack: Node.js, React, Python, PostgreSQL, MySQL, RASA
+
+- company: Quantiphi, Inc.
+  position: Machine Learning Engineer
+  start_date: "Aug 2020"
+  end_date: "Oct 2020"
+  description: >
+    Developed lightweight model (< 0.5 MB) achieving >90% detection accuracy on car defects dataset. 
+    Conducted research on CNN ensembles, studying impact of regularization and optimizers.
+  tech_stack: Python, TensorFlow
+
+- company: MachineSense, LLC
+  position: Software Engineer (Intern)
+  start_date: "May 2019"
+  end_date: "Jun 2019"
+  description: >
+    Contributed to the full-stack development of an IoT system managing sensor lifecycle and calibration.
+    Designed and implemented scripts for detecting and measuring the strength of BLE devices within the network.
+  tech_stack: Node.js, JavaScript, Bash

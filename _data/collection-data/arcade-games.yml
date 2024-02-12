@@ -15,7 +15,3 @@
   desc: 2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. It is played on a 4x4 grid using the arrows.
   launch: https://akashmeshram.github.io/2048-Board-Puzzle
   source: https://github.com/akashmeshram/2048-Board-Puzzle
-# - name: Tic Tac Toe
-#   slug: arcade-games
-#   launch: https://akashmeshram.github.io/Tic-Tac-Toe
-#   source: https://github.com/akashmeshram/Tic-Tac-Toe
