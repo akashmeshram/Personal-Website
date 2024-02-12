@@ -158,3 +158,15 @@ $breakpoints: (
     height: 100%;
   }
 }
+
+@mixin light-tab {
+  display: inline-block;
+  background-color: #f4f3f2;
+  color: $secondary-color;
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+  white-space: nowrap;
+  @include mq("tablet") {
+    margin: 0.25rem auto;
+  }
+}

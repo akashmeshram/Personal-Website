@@ -6,7 +6,7 @@
   description: >
     Developed a comprehensive paper trading system with integrated backend for exchanges, banks, and brokers. 
     Created algorithmic feeds for the app, crafted web frontend screens, and worked on a trading chatbot with OpenAI GPT.
-  tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ElasticSearch
+  tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ClickHouse, OpenAI GPT, Kubernetes
 
 - company: YourStory Media Pvt. Ltd.
   slug: yourstory
@@ -16,7 +16,7 @@
   description: >
     Developed serverless NLP tools on AWS for automating data scraping, 
     Contributed to full-stack development of websites, and building AI chatbots from scratch.
-  tech_stack: Node.js, React, Python, PostgreSQL, MySQL, RASA
+  tech_stack: Node.js, React, Python, PostgreSQL, Docker, RASA Conversational AI
 
 - company: Quantiphi, Inc.
   slug: quantiphi

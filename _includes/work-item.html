@@ -1,9 +1,16 @@
+{% assign tags = item.tech_stack | split: ", " %}
+
 <article class="work-item">
   <div>
     <h4>{{ item.company }}</h4>
     <p class="work-position">{{ item.position }}</p>
     <p>{{ item.start_date }} - {{ item.end_date }}</p>
     <p>{{ item.description }}</p>
+    <div>
+      {% for tag in tags %}
+      <small>{{ tag }}</small>
+      {% endfor %}
+    </div>
   </div>  
 {% if item.slug != null or item.image != null %}
   <div>
