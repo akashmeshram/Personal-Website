@@ -3,17 +3,37 @@
   launch: https://colab.research.google.com/github/akashmeshram/video-download-scripts/blob/main/scripts.ipynb
   source: https://github.com/akashmeshram/video-download-scripts
 
-- name: Video Speech
+- name: Deep Learning Video Speech
   desc: Subtitle creating platform based on Mozilla's DeepSpeech Model
   source: https://github.com/akashmeshram/Speech-To-Text-Program
+
+- name: Machine Learning Sketch Brush
+  desc: This simple program lets you draw pattern with a circular brush by moving your face.
+  source: https://github.com/akashmeshram/ML-Sketch-Brush
+
+- name: AI in Iron Making Process
+  desc: Intelligent optimization methods that consist of improved genetic algorithm and derived machine learning
+  link: https://drive.google.com/file/d/1j114zSS7Ed23I9K-J7Ms9nxEnLKrOPm_/view?usp=drive_link
+
+- name: Zettelsky - knowledge management
+  desc: Note Taking scripts based on the powerful Zettelkasten method, designed to enhance your research, study, and writing experience.
+  source: https://github.com/akashmeshram/VM-to-HACK-Translator
 
 - name: VM to HACK Translator
   desc: A simple Virtual Machine to Assembly translator for HACK assembly language.
   source: https://github.com/akashmeshram/VM-to-HACK-Translator
 
-- name: CNT with Tersoff
+- name: Bluetooth Low Energy Devices Analyzer
+  desc: A program to pinpoint different BLE devices along with their status and characteristics with the hosted device.
+  source: https://github.com/akashmeshram/Bluetooth-LE-Analyzer
+
+- name: Carbon Nanotube Molecular Dynamics Simulation
   desc: Simulation of carbon nanotube by using tersoff potential.
   source: https://github.com/akashmeshram/CNT-with-Tersoff
+
+- name: Simulation of Microcanonical Ensemble
+  desc: A microcanonical ensemble is the statistical ensemble that is used to represent the possible states of a mechanical system which has an exactly specified total energy.
+  source: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
 
 - name: Raw Blockchain
   desc: A block-chain created in JavaScript.
@@ -27,22 +47,10 @@
   desc: A Hash table written in javascript.
   source: https://github.com/akashmeshram/Javascript-Hash-Table
 
-- name: ML Sketch Brush
-  desc: This simple program lets you draw pattern with a circular brush by moving your face.
-  source: https://github.com/akashmeshram/ML-Sketch-Brush
-
 - name: Time Table Problem with Genetic Algorithm
   desc: Implementation of Genetic Algorithm for optimizing Time table for University.
   source: https://github.com/akashmeshram/Time-Table-Problem-with-Genetic-Algorithm
 
-- name: Simple Microcanonical Ensemble
-  desc: A microcanonical ensemble is the statistical ensemble that is used to represent the possible states of a mechanical system which has an exactly specified total energy.
-  source: https://github.com/akashmeshram/Simple-Microcanonical-ensemble
-
 - name: Electice
   desc: A decentralize voting platform using blockchain
   source: https://github.com/akashmeshram/Electice
-
-- name: Bluetooth LE Analyzer
-  desc: A program to pinpoint different BLE devices along with their status and characteristics with the hosted device.
-  source: https://github.com/akashmeshram/Bluetooth-LE-Analyzer

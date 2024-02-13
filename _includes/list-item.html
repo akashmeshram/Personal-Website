@@ -17,6 +17,11 @@
         <small>GET CODE</small>
       </a>
       {% endif %}
+      {% if item.link != null %}
+      <a href="{{ item.link }}" target="_blank">
+        <small>LINK</small>
+      </a>
+      {% endif %}
     </div>
   </div>
   {% if item.slug != null or item.image != null %}
