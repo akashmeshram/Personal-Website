@@ -3,38 +3,24 @@
    ========================================================================== */
 
 #connect-page {
-  form {
-    max-width: map_get($breakpoints, "tablet") * 0.6;
-    margin: 0 auto;
-    p {
+  article {
+    margin-bottom: $whitespace * 3;
+    h3 {
       text-align: center;
-    }
-    input,
-    textarea,
-    button {
-      margin-top: $whitespace;
-    }
-    input[type="text"],
-    input[type="email"] {
-      height: $whitespace * 1;
-    }
-    textarea {
-      height: $whitespace * 3;
-    }
-    button {
-      @include accent-button;
-      text-transform: uppercase;
-      padding: $whitespace * 0.2 $whitespace * 0.6;
+      margin: $whitespace auto;
     }
     div {
-      margin-bottom: 2em;
-      &:last-child {
-        text-align: center;
+      margin-top: $whitespace;
+      text-align: center;
+      small {
+        color: $accent-color;
+      }
+      p {
+        color: $primary-color;
       }
     }
   }
   aside {
-    margin: $whitespace * 2 auto $whitespace;
     display: flex;
     justify-content: center;
     a {
