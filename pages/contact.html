@@ -9,24 +9,24 @@ permalink: /contact
     <h3>Contact Me</h3>
     <div>
       <small>Phone</small>
-      <p> +91 834 846 1991</p>
+      <p> {{ site.data.about.phone }}</p>
     </div>
 
     <div>
       <small>Email</small>
-      <p> 6388495akash@gmail.com</p>
+      <p> {{ site.data.about.email }}</p>
     </div>
 
     <div>
       <small>Location</small>
-      <p> HSR Layout, Bangalore, India</p>
+      <p> {{ site.data.about.address }}</p>
     </div>
   </article>
   <aside>
-    <a href="https://www.linkedin.com/in/meshram-akash/" target="_blank">
+    <a href="{{ site.data.about.linkedin }}" target="_blank">
       {% include svg/linkedin.svg %} Linkedin
     </a>
-    <a href="https://github.com/akashmeshram" target="_blank">
+    <a href="{{ site.data.about.github }}" target="_blank">
       {% include svg/github-alt.svg %} Github
     </a>
   </aside>
