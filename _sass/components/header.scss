@@ -10,6 +10,7 @@ header {
   width: 100%;
   border-block-end: 1px solid $primary-color;
   background-color: rgba($color: #fff, $alpha: 0.9);
+  z-index: 999;
 
   div {
     display: flex;
