@@ -7,3 +7,5 @@ project
 assets/app-gif
 assets/app-img
 fonts
+
+Gemfile.lock
