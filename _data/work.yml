@@ -4,8 +4,9 @@
   start_date: "Mar 2022"
   end_date: "Present"
   description: >
-    Developed a comprehensive paper trading system with integrated backend for exchanges, banks, and brokers. 
-    Created algorithmic feeds for the app, crafted web frontend screens, and worked on a trading chatbot with OpenAI GPT.
+    During my time at YourStory, the CTO of FrontPage approached me with an opportunity to join their team and contribute to their trading platform. I accepted the offer and have been with FrontPage ever since, experiencing a long and exciting journey.
+    At FrontPage, I developed a comprehensive paper trading system with an integrated backend that connects to various exchanges, banks, and brokers. Additionally, I created algorithmic feeds for the app, designed web frontend screens, and worked on a trading chatbot using OpenAI's GPT technology.
+    My current role is most of devops, where I manage the infrastructure, CI/CD pipelines, and deployments. I also work on the backend, building APIs and services for the trading platform.
   tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ClickHouse, OpenAI GPT, Kubernetes
 
 - company: YourStory Media Pvt. Ltd.
@@ -14,8 +15,10 @@
   start_date: "Oct 2020"
   end_date: "Mar 2022"
   description: >
-    Developed serverless NLP tools on AWS for automating data scraping, 
-    Contributed to full-stack development of websites, and building AI chatbots from scratch.
+    After my short stint at Quantiphi, I joined YourStory for my curiosity in the media industry and a chance to work in startups.
+    I worked on a variety of projects, including building a CMS for the editorial team, main website features, and a premium subscription platform.
+    Alongside, I developed serverless NLP tools on AWS for automating data scraping and also created AI chatbot from scratch.
+    It was a great learning experience, and I got to work with some amazing people.
   tech_stack: Node.js, React, Python, PostgreSQL, Docker, RASA Conversational AI
 
 - company: Quantiphi, Inc.
@@ -24,8 +27,10 @@
   start_date: "Aug 2020"
   end_date: "Oct 2020"
   description: >
-    Developed lightweight model (< 0.5 MB) achieving >90% detection accuracy on car defects dataset. 
-    Conducted research on CNN ensembles, studying impact of regularization and optimizers.
+    After completing my college degree, I joined Quantiphi as a Machine Learning Engineer.
+    I worked on a project for a major US-based retail chain, where I developed a lightweight model (< 0.5 MB) for detecting car defects in images,
+    which was deployed on the edge devices in their stores, It had an accuracy of 95% and ran in real-time.
+    I also conducted research on CNN ensembles, studying the impact of regularization and optimizers.
   tech_stack: Python, TensorFlow
 
 - company: MachineSense, LLC
@@ -34,6 +39,6 @@
   start_date: "May 2019"
   end_date: "Jun 2019"
   description: >
-    Contributed to the full-stack development of an IoT system managing sensor lifecycle and calibration.
-    Designed and implemented scripts for detecting and measuring the strength of BLE devices within the network.
-  tech_stack: Node.js, JavaScript, Bash
+    My first internship where I wrote scripts for detecting and measuring the strength of BLE devices within the network.
+    I also worked on a data visualization app for the company's IoT platform, which was used by the team for monitoring and debugging.
+  tech_stack: Node.js, JavaScript, Bash, Cordova
