@@ -4,10 +4,10 @@
   start_date: "Mar 2022"
   end_date: "Present"
   description: >
-    During my time at YourStory, the CTO of FrontPage approached me with an opportunity to join their team and contribute to their trading platform. I accepted the offer and have been with FrontPage ever since, experiencing a long and exciting journey.
-    At FrontPage, I developed a comprehensive paper trading system with an integrated backend that connects to various exchanges, banks, and brokers. Additionally, I created algorithmic feeds for the app, designed web frontend screens, and worked on a trading chatbot using OpenAI's GPT technology.
+    Currenlty working at FrontPage experiencing a long and exciting journey.
+    At FrontPage, I developed the paper trading system with adapters that connects to various exchanges, banks, and brokers. Additionally, I worked on algorithmic recommendation feeds for the app, and several AI tools using OpenAI's GPT.
     My current role is most of devops, where I manage the infrastructure, CI/CD pipelines, and deployments. I also work on the backend, building APIs and services for the trading platform.
-  tech_stack: Node.js, React, Python, Golang, MySQL, Redis, ClickHouse, OpenAI GPT, Kubernetes
+  tech_stack: Node.js, React, Python, Golang, MySQL, Redis, OpenAI GPT, Kubernetes, Azure, GCP
 
 - company: YourStory Media Pvt. Ltd.
   slug: yourstory
@@ -17,8 +17,7 @@
   description: >
     After my short stint at Quantiphi, I joined YourStory for my curiosity in the media industry and a chance to work in startups.
     I worked on a variety of projects, including building a CMS for the editorial team, main website features, and a premium subscription platform.
-    Alongside, I developed serverless NLP tools on AWS for automating data scraping and also created AI chatbot from scratch.
-    It was a great learning experience, and I got to work with some amazing people.
+    Alongside, I developed serverless NLP tools on AWS for automating data scraping and created AI chatbot for different company profiles.
   tech_stack: Node.js, React, Python, PostgreSQL, Docker, RASA Conversational AI
 
 - company: Quantiphi, Inc.

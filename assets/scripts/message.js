@@ -1,7 +1,7 @@
 console.log(
   "".concat(
     "%c",
-    "© 2024 AKASH MESHRAM",
+    "© 2025 AKASH MESHRAM",
     "%c",
     "\n\n",
     "                                                                         \n",
@@ -15,7 +15,7 @@ console.log(
     `  6388495akash@gmail.com / +91-8348461991                                \n`,
     `                                                                         \n`,
     `  And if you have an interesting opportunity, here's my résumé:          \n`,
-    `  https://drive.google.com/file/d/1IRUHyCKxXMB-jRZMS0mqYyeuOvYrghM_      \n`,
+    `  https://drive.google.com/file/d/1ctfy61sawEhJr0Bg8t3Onx10wtMi-XYc      \n`,
     `                                                                         \n`
   ),
   "color: #aaa; background-color: #222; font-family:  monospace; font-size: 14px; font-weight: bold; padding: 8px 19px; border: 1px solid; margin: 20px;",
