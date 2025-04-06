@@ -6,10 +6,31 @@
 }
 
 .work-title {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 80%;
+    width: 4px;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+
   @include mq("tablet", max) {
     text-align: center;
     @include p-tb($whitespace);
+
+    &::before {
+      display: none;
+    }
   }
+
   @include mq("tablet") {
     @include m-lr($whitespace);
   }
@@ -17,25 +38,50 @@
 
 .work-item {
   img {
-    box-shadow: 0 0 2px #ccc;
+    box-shadow: $box-shadow-md;
+    border-radius: $border-radius-md;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
   }
+
   .work-position {
     color: $accent-color;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
     @include mq("tablet", max) {
       @include p-tb($whitespace * 0.5);
     }
   }
+
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
+  background-color: $card-background;
+  border-radius: $border-radius-md;
+  box-shadow: $box-shadow-sm;
+  padding: 1.5rem;
+
   div:first-child {
+    p {
+      margin-bottom: 1.25rem;
+      line-height: 1.6;
+    }
+
     div {
       @include m-tb($whitespace * 0.5);
+
       small {
         @include light-tab;
+        margin: 0.25rem;
+        font-size: 0.8rem;
       }
     }
   }
+
   @include mq("tablet") {
     flex-direction: row;
     div {
@@ -43,6 +89,11 @@
         @include m-lr($whitespace);
         flex: 2.5 1 0;
         text-align: left;
+
+        div {
+          justify-content: flex-start;
+        }
+
         small {
           margin-left: 0;
         }

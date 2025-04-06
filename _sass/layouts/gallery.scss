@@ -1,30 +1,69 @@
+/* =============================================================================
+   GALLERY SECTION
+   ========================================================================== */
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-  grid-gap: 2rem;
+  gap: 1.5rem;
+
   article {
-    width: auto;
-    margin-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+    background-color: $card-background;
+    height: 100%;
+
+    a {
+      display: block;
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .thumbnail {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 65%;
+      background-color: $asset-background;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+    }
+
     .gallery-header {
-      font-family: inherit;
+      font-size: 1.2rem;
+      font-weight: 600;
       color: $primary-color;
-      text-transform: capitalize;
-      @include transition(color);
+      margin: 1rem 1rem 0.5rem;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: $accent-color;
+        margin-top: 0.5rem;
+        transition: width 0.3s ease;
+      }
     }
+
+    &:hover .gallery-header::after {
+      width: 60px;
+    }
+
     p {
-      @include margin-top(0.25);
+      margin: 0 1rem 1.5rem;
       color: $secondary-color;
-      line-height: 1.25;
-      @include transition(color);
+      font-size: 0.95rem;
+      line-height: 1.5;
     }
-    &:hover {
-      .gallery-header {
-        color: $accent-color;
-      }
-      p {
-        color: $primary-color;
-      }
-    }
-    text-align: center;
   }
 }

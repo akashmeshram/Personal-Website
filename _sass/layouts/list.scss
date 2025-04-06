@@ -5,6 +5,12 @@
     text-align: center;
     @include p-tb($whitespace);
     @include m-tb($whitespace);
+    border-radius: $border-radius-md;
+    box-shadow: $box-shadow-sm;
+    background-color: $card-background;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+
     div:first-child {
       div {
         @include m-tb($whitespace * 0.5);
@@ -15,9 +21,35 @@
           @include light-button;
           @include p-tb($whitespace * 0.125);
           @include p-lr($whitespace * 0.25);
+          border-radius: $border-radius-sm;
+          transition: all 0.3s ease;
+        }
+      }
+
+      .list-header {
+        color: $primary-color;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: $secondary-color;
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+    }
+
+    div:nth-child(2) {
+      img {
+        border-radius: $border-radius-md;
+        transition: transform 0.5s ease;
+
+        &:hover {
+          transform: scale(1.03);
         }
       }
     }
+
     @include mq("tablet") {
       flex-direction: row;
       div {
@@ -25,12 +57,17 @@
           @include m-lr($whitespace);
           flex: 2.5 1 0;
           text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
           small {
             margin-left: 0;
           }
         }
         &:nth-child(2) {
           flex: 1 1 0;
+          overflow: hidden;
         }
       }
     }

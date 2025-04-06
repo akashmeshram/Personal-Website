@@ -5,6 +5,9 @@
 #about-page {
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+
   #profile-image {
     background-color: $asset-background;
     aspect-ratio: auto 1 / 1;
@@ -12,19 +15,65 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  div {
-    margin-bottom: 1em;
-    p {
-      @include margin-bottom(0.5);
+    border-radius: $border-radius-md;
+    box-shadow: $box-shadow-md;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 70%,
+        rgba($accent-color, 0.15)
+      );
+      z-index: 1;
     }
   }
+
+  div {
+    margin-bottom: 1.5em;
+
+    p {
+      @include margin-bottom(0.75);
+      line-height: 1.8;
+      font-size: 1.05rem;
+
+      b {
+        color: $primary-color;
+        font-weight: 600;
+      }
+    }
+  }
+
+  #profile-text {
+    padding: 1.5rem;
+
+    .highlight {
+      display: inline-block;
+      background-color: rgba($accent-color, 0.1);
+      color: $accent-color;
+      font-weight: 500;
+      padding: 0.25rem 0.5rem;
+      border-radius: $border-radius-sm;
+      margin: 0.25rem 0;
+    }
+  }
+
   @include mq("tablet") {
     flex-direction: row;
+    gap: 3rem;
+
     #profile-text {
       flex: 3 1 0;
-      margin-left: 2em;
+      padding: 0;
     }
+
     #profile-image {
       flex: 2 1 0;
       aspect-ratio: auto 3 / 4;

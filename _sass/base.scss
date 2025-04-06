@@ -4,11 +4,10 @@
 *,
 *:before,
 *:after {
-  /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+  /* apply a natural box layout model to all elements */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  // border: 2px red solid;
 }
 
 ::-moz-selection {
@@ -26,17 +25,18 @@
 html {
   background-color: $body-background;
   min-height: 100vh;
-  overflow-y: scroll;
-  overflow-y: overlay;
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 body {
   position: relative;
   color: $primary-color;
   min-height: 100vh;
+  // padding-top: $whitespace * 3;
   padding-bottom: $whitespace * 2;
   @include mq("tablet", max) {
-    padding-top: $whitespace * 3;
+    padding-top: $whitespace * 3.5;
   }
 }
 
@@ -47,10 +47,31 @@ section {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 .link-text {
   color: $accent-color;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: $accent-color;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 }
 
 a:hover,
@@ -64,37 +85,63 @@ textarea {
   background: none;
   border: none;
   padding: $whitespace * 0.5;
-  border-bottom: 1px solid rgba($color: $secondary-color, $alpha: 0.5);
+  border: 1px solid rgba($color: $secondary-color, $alpha: 0.3);
+  border-radius: $border-radius-sm;
+  transition: all 0.3s ease;
+
   &:hover,
-  &:active {
-    border-color: $primary-color;
+  &:focus {
+    border-color: $accent-color;
+    box-shadow: 0 0 0 2px rgba($accent-color, 0.1);
+    outline: none;
   }
 }
 
 input,
 textarea {
-  @include transition(border);
+  @include transition(all 0.3s ease);
   @include input-placeholder {
-    color: $secondary-color;
+    color: lighten($secondary-color, 15%);
   }
 }
 
 p {
   color: $secondary-color;
+  line-height: 1.7;
 }
 
 .page-title {
   text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
 }
 
 .thumbnail {
   width: 100%;
   padding-bottom: 75%;
   @include image-container;
+  overflow: hidden;
+
   img {
-    @include transition(all);
+    @include transition(transform 0.5s ease);
+    object-fit: cover;
+
     &:hover {
-      transform: scale(1.04);
+      transform: scale(1.05);
     }
   }
 }
@@ -102,7 +149,7 @@ p {
 // Scroll Bar
 /* width */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 /* Track */
@@ -112,10 +159,27 @@ p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $secondary-color;
+  background: rgba($accent-color, 0.5);
+  border-radius: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $primary-color;
+  background: $accent-color;
+}
+
+// Animation classes
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

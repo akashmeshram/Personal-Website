@@ -1,8 +1,26 @@
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+
 footer {
+  text-align: center;
   @include m-tb($whitespace * 0.5);
-  bottom: 0;
   width: 100%;
   position: absolute;
-  text-align: center;
-  color: $secondary-color;
+  bottom: 0;
+
+  small {
+    font-size: 0.9rem;
+    color: $secondary-color;
+
+    a {
+      color: $accent-color;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
