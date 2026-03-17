@@ -26,8 +26,8 @@
     margin-bottom: 1.5em;
 
     p {
-      @include margin-bottom(0.75);
-      line-height: 1.8;
+      @include margin-bottom(0.5);
+      line-height: 1.6;
       font-size: 1.05rem;
 
       b {
@@ -39,6 +39,10 @@
 
   #profile-text {
     padding: 1.5rem;
+
+    p:first-child {
+      margin-top: 0;
+    }
 
     .highlight {
       display: inline-block;
